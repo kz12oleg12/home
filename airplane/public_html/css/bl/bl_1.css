@@ -1,0 +1,85 @@
+#bl_1 {
+    background: transparent url('/img/home.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#bl_1 .name{
+    text-align: center;
+    font-size: 35px;
+    color: white
+}
+#bl_1 .name h1{
+    font-weight: 900;
+}
+#bl_1 .name h1.light{
+    font-weight: 300;
+}
+
+#bl_1 .cont{
+    margin-top: 20%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#bl_1 form {
+    display: flex;
+    justify-content: center;
+}
+#bl_1 form input{
+    padding: 10px;
+    border: none;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background: #dce3ed; 
+
+}
+#bl_1 form input[type="button"]{
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px; 
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px; 
+    font-size: 0.8em;
+    background: #ee1a30;
+    color: white;
+    font-weight: 400px;
+    cursor: pointer;
+    transition: ease, 0.5s;
+}
+#bl_1 form input[type="button"]:hover{
+    transform: scale(1.1)
+}
+#bl_1 form .inp{
+    display: flex;
+    padding: 15px;
+}
+
+#bl_1 form .inp .inp-icon{
+    padding: 10px;
+    background: #dce3ed; 
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px; 
+    color: #ee1a30;
+}
+
+#bl_1 .sm img{
+    position: absolute;
+    z-index: 0;
+    animation-duration: 2.5s;
+    animation-delay: 0.1s;
+    width: 50%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+#bl_1 .sml{
+    animation-duration: 2.5s;
+    animation-delay: 0.1s;
+}
