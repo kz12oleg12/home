@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<winginx>
+  <project>
+    <name>nexstep</name>
+    <url>http://nexstep/</url>
+    <root>home/nexstep</root>
+  </project>
+</winginx>
