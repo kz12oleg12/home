@@ -1,0 +1,14 @@
+
+.mr-l{
+    margin-left: auto;
+}
+.mr-r{
+    margin-right: auto;
+}
+.mr-h{
+    margin: auto 0;
+}
+
+.mr-w{
+    margin: 0 auto;
+}
