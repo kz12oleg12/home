@@ -55,7 +55,8 @@
 	<!-- HOME -->
 	<?php require_once("home/home.php"); ?>
 	<!-- BLOCK -->
-
+	<?php require_once("blocks/advantages.php"); ?>
+	<?php require_once("blocks/services.php"); ?>
 	<!-- FEEDBACK -->
 
 	<!-- FOOTER -->

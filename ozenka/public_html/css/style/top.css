@@ -1,5 +1,8 @@
 nav {
     background: #4a98dc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.287);
+    position: relative;
+    z-index: 100;
 }
 
 nav .nav-brand h1 {
@@ -69,7 +72,7 @@ nav ul.nav-list li.close button, nav .nav-mb-mtn button{
         right: 0;
         background: white;
         display: block;
-        width: 200px;
+        width: 300px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.419);
         height: 100%;
         z-index: 5;
@@ -104,7 +107,7 @@ nav ul.nav-list li.close button, nav .nav-mb-mtn button{
         display: block;
     }
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
     nav ul.nav-list {
         left: 0;
         bottom: 0;
