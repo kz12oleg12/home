@@ -41,7 +41,7 @@
     </div>
 </section>
 <script>
-    $('.sml').addClass('animated slideInRight');
+    $('.sml').addClass('animated zoomInRight');
 
     var N = 5000; // 5 секунд
 

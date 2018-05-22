@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<winginx>
+  <project>
+    <name>ozenka</name>
+    <url>http://ozenka/</url>
+    <root>home/ozenka</root>
+  </project>
+</winginx>
