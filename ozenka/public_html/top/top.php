@@ -25,7 +25,7 @@
                         </li>
                         <li class="nav-line"></li>
                         <li>
-                            <a href="#">Сервис</a>
+                            <a href="#">Преимущества</a>
                         </li>
                         <li class="nav-line"></li>
                         <li>
@@ -34,14 +34,6 @@
                         <li class="nav-line"></li>
                         <li>
                             <a href="#">Схема работы</a>
-                        </li>
-                        <li class="nav-line"></li>
-                        <li>
-                            <a href="#">Преимущества</a>
-                        </li>
-                        <li class="nav-line"></li>
-                        <li>
-                            <a href="#">Отзывы</a>
                         </li>
                         <li class="nav-line"></li>
                         <li>

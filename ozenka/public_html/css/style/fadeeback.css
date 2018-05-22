@@ -1,0 +1,16 @@
+#fadeeback{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent url('/img/fadeeback.jpg') no-repeat center center;
+    background-size: cover;
+    margin: 15px 0;
+    margin-bottom: 0;
+    position: relative;
+    z-index: 0;
+}
+#fadeeback.bgdark:after {
+    background: rgba(53, 45, 47, 0.062) none repeat scroll 0 0;
+}

@@ -30,7 +30,7 @@
     padding: 20px;
 }
 
-#main .mn-cont h1, #main .name-home-form h2 {
+#main .mn-cont h1, .name-home-form h2 {
     font-weight: 900;
     color: white;
     margin: 15px;
@@ -39,8 +39,7 @@
     text-align: right;
     font-family: 'Oswald', sans-serif;
 }
-
-#main .name-home-form h2 {
+ .name-home-form h2 {
     text-align: center;
     font-size: 2em;
 }
@@ -56,24 +55,24 @@
     font-family: 'Roboto', sans-serif
 }
 
-#main form.home-form {
+ form.home-form {
     width: 100%;
     padding: 15px;
     display: flex;
     justify-content: center;
 }
 
-#main form.home-form input {
+ form.home-form input {
     width: 100%;
 }
 
-#main form.home-form input[type="text"] {
+ form.home-form input[type="text"] {
     padding: 7px;
     border: navajowhite;
     border-right: 1px solid lightgray;
 }
 
-#main form.home-form input[type="button"] {
+ form.home-form input[type="button"] {
     padding: 5px 15px;
     background: #4a98dc;
     border: navajowhite;
@@ -85,7 +84,7 @@
     cursor: pointer;
 }
 
-#main form.home-form input[type="button"]:hover {
+ form.home-form input[type="button"]:hover {
     transform: scale(1.2);
 }
 
@@ -99,7 +98,7 @@
     #main .mn-cont p {
         font-size: 1em;
     }
-    #main form.home-form input[type="text"] {
+    form.home-form input[type="text"] {
         padding: 7px;
         border: navajowhite;
         border-right: none;
@@ -114,7 +113,7 @@
         font-size: 1.5em;
         margin: 5px;
     }
-    #main .name-home-form h2 {
+     .name-home-form h2 {
         text-align: center;
         font-size: 1.5em;
         margin: 0;
@@ -123,7 +122,7 @@
         font-size: 0.9em;
         padding: 0;
     }
-    #main form.home-form input[type="text"] {
+     form.home-form input[type="text"] {
         padding: 7px;
         border: navajowhite;
         border-right: none;

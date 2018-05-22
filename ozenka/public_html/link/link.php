@@ -1,6 +1,6 @@
 <style>
     .footer-bottom-fon {
-        background: #333;
+        background: #3874a8;
         padding: 15px;
     }
 

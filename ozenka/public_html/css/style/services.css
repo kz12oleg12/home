@@ -45,6 +45,10 @@
     color: rgb(70, 70, 70);
 }
 
+.bl-name {
+    padding: 15px;
+}
+
 .bl-name h2 {
     text-transform: uppercase;
     font-family: "Oswald", sans-serif;

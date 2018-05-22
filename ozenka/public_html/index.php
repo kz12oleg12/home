@@ -57,12 +57,15 @@
 	<!-- BLOCK -->
 	<?php require_once("blocks/advantages.php"); ?>
 	<?php require_once("blocks/services.php"); ?>
+	<?php require_once("blocks/working.php"); ?>
+	<?php require_once("blocks/text.php"); ?>
+	<?php require_once("blocks/fadeeback.php"); ?>
 	<!-- FEEDBACK -->
 
 	<!-- FOOTER -->
-
+	<?php require_once("footer/footer.php"); ?>
 	<!-- LINK -->
-
+	<?php require_once("link/link.php"); ?>
 </body>
 
 

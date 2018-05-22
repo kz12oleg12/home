@@ -1,0 +1,57 @@
+#working{
+    background: #eee;
+}
+.wr-it {
+    margin: 15px 0;
+}
+.wr-it .inf-fl{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.wr-it .inf{
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.322);
+    padding: 15px;
+    position: absolute;
+    z-index: 5;
+    
+}
+.wr-it .inf.left{
+    left: -130px;
+    text-align: right;
+}
+.wr-it .inf.right{
+    right: -130px;
+}
+.wr-it img{
+    width: 100%;
+}
+.wr-it h2{
+    font-family: 'Oswald',sans-serif;
+    margin: 15px 0;
+    font-weight: 400;
+    color: #4a98dc;
+}
+
+.wr-it p{
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+@media (max-width:992px){
+    .wr-it .inf{
+        position: relative;
+    }
+    .wr-it .inf.left{
+        left: 0;
+        text-align: center;
+    }
+    .wr-it .inf.right{
+        right: 0;
+        text-align: center;
+    }
+}
