@@ -104,6 +104,9 @@
         border-right: none;
         border-bottom: 1px solid lightgray;
     }
+    form.home-form input[type="button"]:hover {
+        transform: none;
+    }
 }
 @media (max-width: 760px) {
     #main .mn-cont h1, #main .mn-cont p {

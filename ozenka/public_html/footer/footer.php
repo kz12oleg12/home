@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="/css/style/footer.css">
 
-<footer id="schablon1-footer">
+<footer id="footer-oc">
     <div class="container fot">
         <div class="row">
             <div class="col-12 col-md-auto">
@@ -23,23 +23,6 @@
                         </li>
                     </ul>
                 </div>
-                <!-- <div class="fot-social">
-                    <a href="#">
-                        <i class="icon fa-3x ion-social-twitter"></i>
-                    </a>
-                    <a href="#">
-                        <i class="icon fa-3x ion-social-facebook"></i>
-                    </a>
-                    <a href="#">
-                        <i class="icon fa-3x ion-social-instagram"></i>
-                    </a>
-                    <a href="#">
-                        <i class="icon fa-3x ion-social-pinterest"></i>
-                    </a>
-                    <a href="#">
-                        <i class="icon fa-3x ion-social-whatsapp-outline"></i>
-                    </a>
-                </div> -->
             </div>
             <div class="col-12 col-md-auto order-first ">
                 <div class="fot-name">
@@ -48,19 +31,19 @@
                 <div class="fot-cont">
                     <ul class="list-cont">
                         <li>
-                            <a href="#">Главная</a>
+                            <a href="#top">Главная</a>
                         </li>
                         <li>
-                            <a href="#">Преимущества</a>
+                            <a href="#advantages">Преимущества</a>
                         </li>
                         <li>
-                            <a href="#">Услуги</a>
+                            <a href="#services">Услуги</a>
                         </li>
                         <li>
-                            <a href="#">Схема работы</a>
+                            <a href="#working">Схема работы</a>
                         </li>
                         <li>
-                            <a href="#">Контакты</a>
+                            <a href="#footer">Контакты</a>
                         </li>
                     </ul>
                 </div>

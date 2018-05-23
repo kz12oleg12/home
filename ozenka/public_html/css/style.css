@@ -12,3 +12,21 @@
 .mr-w{
     margin: 0 auto;
 }
+
+.anim-right{
+    transform: translateX(1300px);
+}
+.anim-left{
+
+    transform: translateX(-1300px);
+}
+
+@media (max-width:768px){
+    .anim-right{
+        transform: none;
+    }
+    .anim-left{
+
+        transform: none;
+    }
+}

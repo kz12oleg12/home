@@ -31,8 +31,3 @@
     </div>
 </section>
 <script src="/js/resize.js"></script>
-<script type="text/javascript">
-    window.onload = function () {
-        document.body.className += ' loaded'
-    };
-</script>

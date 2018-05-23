@@ -1,20 +1,21 @@
-#schablon1-footer {
+#footer-oc {
     background: #4a98dc;
     color: white;
     border-top: 10px solid #3874a8;
 
 }
 
-#schablon1-footer a {
+#footer-oc a {
     color: white;
     transition: ease, 0.5s;
+    font-weight: 300;
 }
 
-#schablon1-footer a:hover {
+#footer-oc a:hover {
     color: lightgray;
 }
 
-#schablon1-footer iframe {
+#footer-oc iframe {
     padding: 0 15px;
 }
 
@@ -28,6 +29,7 @@
     padding: 5px 0;
     border-bottom: 1px solid white;
     margin: 5px;
+    font-family: 'Oswald',sans-serif;
 
 }
 
@@ -66,19 +68,19 @@
 
 }
 @media (max-width:992px){
-    #schablon1-footer iframe {
+    #footer-oc iframe {
         padding: 15px 0;
     }
 }
 
 @media (max-width: 576px) {
-    #schablon1-footer iframe {
+    #footer-oc iframe {
         padding: 0;
         margin: 0;
         height: 0;
         transition: 1s;
     }
-    #schablon1-footer iframe.active {
+    #footer-oc iframe.active {
         height: 200px;
         transition: 1s;
     }

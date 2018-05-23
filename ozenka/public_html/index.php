@@ -30,19 +30,43 @@
 
 	<!-- FONT -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,500,600,700,800,900" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&amp;subset=cyrillic,latin-ext,vietnamese" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&amp;subset=cyrillic,latin-ext,vietnamese"
+	 rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese"
+	 rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=cyrillic,cyrillic-ext"
+	 rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
 	<!-- JS -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="/modules/owlcarousel/owl.carousel.min.js"></script>
+	<script src="/js/jquery.waypoints.min.js"></script>
 	<script src="/js/resize.js"></script>
+	
+	<script>
+		$(document).ready(function () {
+			$("a").click(function () {
+				var elementClick = $(this).attr("href");
+				var destination = $(elementClick).offset().top;
+				if ($.browser) {
+					$('body').animate({ scrollTop: destination }, 1100); //1100 - скорость
+				} else {
+					$('html').animate({ scrollTop: destination }, 1100);
+				}
+				return false;
+			});
+		});
+	</script>
 
 	<style>
 		body {
 			font-family: 'Roboto', sans-serif;
+			overflow-x: hidden;
+		}
+
+		body.stop {
+			overflow: hidden;
 		}
 	</style>
 
@@ -66,9 +90,9 @@
 	<?php require_once("footer/footer.php"); ?>
 	<!-- LINK -->
 	<?php require_once("link/link.php"); ?>
+
 </body>
-
-
+<script src="/js/index.js"></script>
 
 </html>
 <?php
