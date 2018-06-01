@@ -31,9 +31,54 @@
             </div>
         </div>
         <div class="pl-down">
-            <div class="row">
+            <div class="row no-gutters">
                 <div class="col">
-                    <ul class="radio-btn">
+                    <div class="custom-radios">
+                        <div>
+                            <input type="radio" id="color-1" name="color" value="color-1" checked>
+                            <label for="color-1">
+                                <span>
+                                    <!-- <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/242518/check-icn.svg" alt="Checked Icon" /> -->
+                                    <i class="icon ion-ios-checkmark fa-2x"></i>
+                                </span>
+                                Малые
+                            </label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="color-2" name="color" value="color-2">
+                            <label for="color-2">
+                                <span>
+                                    <!-- <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/242518/check-icn.svg" alt="Checked Icon" /> -->
+                                    <i class="icon ion-ios-checkmark fa-2x"></i>
+                                </span>
+                                Среднии
+                            </label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="color-3" name="color" value="color-3">
+                            <label for="color-3">
+                                <span>
+                                    <!-- <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/242518/check-icn.svg" alt="Checked Icon" /> -->
+                                    <i class="icon ion-ios-checkmark fa-2x"></i>
+                                </span>
+                                Большие
+                            </label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="color-4" name="color" value="color-4">
+                            <label for="color-4">
+                                <span>
+                                    <!-- <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/242518/check-icn.svg" alt="Checked Icon" /> -->
+                                    <i class="icon ion-ios-checkmark fa-2x"></i>
+                                </span>
+                                Верталеты
+                            </label>
+                        </div>
+                    </div>
+                    <!-- <ul class="radio-btn">
                         <li>
                             <input type="radio" name="" id="">
                             Малые
@@ -50,7 +95,13 @@
                             <input type="radio" name="" id="">
                             Вертолеты
                         </li>
-                    </ul>
+                    </ul> -->
+                </div>
+                <div class="col-auto">
+                    <button>
+                        <i class="icon ion-ios-search fa-lg"></i>
+                        Начать поиск
+                    </button>
                 </div>
             </div>
         </div>

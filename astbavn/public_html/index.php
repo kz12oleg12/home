@@ -46,6 +46,7 @@
 	<?php require_once("top/header.php"); ?>
 	<!-- HOME -->
 	<?php require_once("home/home.php"); ?>
+	<?php require_once("blocks/sm.php"); ?>
 
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
