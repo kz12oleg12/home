@@ -15,6 +15,7 @@
         z-index: 10;
         padding: 5px 0;
         transition: 1s;
+        background: #041c40;
     }
 
     .brand {
@@ -244,6 +245,3 @@
     </div>
 </header>
 
-<script>
-    $('.telephone').addClass('animated zoomInRight');
-</script>

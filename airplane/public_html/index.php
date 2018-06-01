@@ -77,6 +77,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
 	<script src="/modules/owlcarousel/owl.carousel.min.js"></script>
 	<script src="/js/resize.js"></script>
+	<script src="/js/index.js"></script>
 	<script>
 		$('.owl-carousel').owlCarousel({
 			animateOut: 'slideOutUp',

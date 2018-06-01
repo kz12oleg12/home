@@ -15,6 +15,14 @@ $('nav ul.nav-list li a').click(function(){
     $('.nv-fon').removeClass('active');
     $('body').removeClass('stop');
 });
+
+var waypoint = new Waypoint({
+    element: document.getElementById('top'),
+    handler: function (direction) {
+        $('nav').toggleClass('active');
+    },
+    offset: '-35%'
+})
 // SERVICES
 var waypoint = new Waypoint({
     element: document.getElementById('services'),

@@ -4,7 +4,12 @@ nav {
     position: relative;
     z-index: 100;
 }
-
+nav#top.active{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
 nav .nav-brand h1 {
     font-weight: 700;
     color: white;
@@ -106,6 +111,21 @@ nav ul.nav-list li.close button, nav .nav-mb-mtn button{
     .nv-fon {
         display: block;
     }
+}
+
+.up-panel{
+    padding: 10px 0;
+    background: #30628d;
+    color: white;
+}
+.cl span{
+    margin-left: 15px;
+}
+.cr-tran{
+    color: transparent;
+}
+.cr-lgr{
+    color: lightgray;
 }
 @media (max-width: 576px) {
     nav ul.nav-list {

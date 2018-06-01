@@ -1,5 +1,25 @@
 <link rel="stylesheet" href="css/style/top.css">
 <header>
+    <div class="up-panel cl d-none d-lg-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-auto">
+                    <i class="icon fa-lg ion-ios-location"></i>
+                    <span>г.Астана/ Бебетшилык 18/ кб.220</span>
+                </div>
+                <div class="col">
+                    <i class="icon fa-lg ion-ios-email"></i>
+                    <span>schblon-ty@gmail.com</span>
+                </div>
+                <div class="col-auto">
+                    <i class="icon fa-lg ion-ios-call"></i>
+                    <span>8707-221-7172</span>
+                    <span> 8707-221-7172</span>
+                    <span>8707-221-7172</span>
+                </div>
+            </div>
+        </div>
+    </div>
     <nav id="top">
         <div class="container">
             <div class="row">
@@ -18,7 +38,9 @@
                 <div class="col-auto mr-l order-2">
                     <ul class="nav-list">
                         <li class="close">
-                            <button><i class="icon ion-md-close fa-2x"></i></button>
+                            <button>
+                                <i class="icon ion-md-close fa-2x"></i>
+                            </button>
                         </li>
                         <li>
                             <a href="#top">Главная</a>
@@ -40,6 +62,24 @@
                             <a href="#footer-oc">Контакты</a>
                         </li>
                         <li class="nav-line"></li>
+                        <span class="d-lg-none cl">
+                            <li>
+                                <i class="icon fa-lg ion-ios-location"></i>
+                                <span>г.Астана/ Бебетшилык 18/ кб.220</span>
+                            </li>
+                            <li class="nav-line"></li>
+                            <li>
+                                <i class="icon fa-lg ion-ios-email"></i>
+                                <span>schblon-ty@gmail.com</span>
+                            </li>
+                            <li class="nav-line"></li>
+                            <li>
+                                <i class="icon fa-lg ion-ios-call"></i>
+                                <span>8707-221-7172</span>
+                                <span> 8707-221-7172</span>
+                                <span>8707-221-7172</span>
+                            </li>
+                        </span>
                     </ul>
                 </div>
             </div>

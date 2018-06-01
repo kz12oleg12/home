@@ -41,18 +41,10 @@
     </div>
 </section>
 <script>
-    $('.sml').addClass('animated zoomInRight');
-
     var N = 5000; // 5 секунд
 
     setInterval(function () {
         $('.telephone').toggleClass('animated tada');
     }, N);
     
-</script>
-<script>
-    var scene = document.getElementById('scene');
-    var parallaxInstance = new Parallax(scene, {
-        relativeInput: true
-    });
 </script>
