@@ -1,0 +1,59 @@
+#park-sm-slide1 {
+    /* height: 200px; */
+    background: transparent url('/img/park-sm/slider1.png') no-repeat center center;
+    background-size: cover;
+}
+
+#park-sm-slide1 .slid {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#park-sm-slide1 img {
+    width: 80px;
+    height: auto;
+    margin: 15px;
+    margin: auto;
+}
+
+#park-sm-slide1 .slid div {
+    text-align: center;
+    color: white;
+}
+
+#park-sm-slide1 .slid div h2{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 15px 0;
+}
+
+#park-sm-slide1 .owl-carousel .owl-nav.disabled {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+}
+#park-sm-slide1 .owl-carousel .owl-nav .owl-prev {
+    position: absolute;
+    left: 0;
+}
+#park-sm-slide1 .owl-carousel .owl-nav .owl-next {
+    position: absolute;
+    right: 0;
+}
+
+#park-sm-slide1 .owl-theme .owl-nav [class*=owl-] {
+    color: #FFF;
+    font-size: 14px;
+    margin: 5px;
+    padding: 0px 15px;
+    background: rgb(241, 19, 19);
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 0px;
+}

@@ -31,7 +31,10 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,600,700,900" rel="stylesheet">
 
 	<!-- JS -->
-	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+	<script src="/modules/owlcarousel/owl.carousel.min.js"></script>
+	<script src="/js/resize.js"></script>
 
 	<style>
 		body {
@@ -46,15 +49,15 @@
 	<?php require_once("top/header.php"); ?>
 	<!-- HOME -->
 	<?php require_once("home/home.php"); ?>
-	<?php require_once("blocks/sm.php"); ?>
+	<!-- BLOCKS -->
+	<?php require_once("blocks/park-sm.php"); ?>
+	<?php require_once("blocks/park-sm-slide1.php"); ?>
+	<?php require_once("blocks/park-sm-feedback.php"); ?>
 
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
-	<script src="/modules/owlcarousel/owl.carousel.min.js"></script>
-	<script src="/js/resize.js"></script>
+	
 	<script src="/js/index.js"></script>
-	<script>
+	<!-- <script>
 		$('.owl-carousel').owlCarousel({
 			animateOut: 'slideOutUp',
 			animateIn: 'slideInUp',
@@ -72,7 +75,7 @@
 		$('.next-sl').click(function () {
 			owl.trigger('next.owl.carousel');
 		})
-	</script>
+	</script> -->
 
 
 </body>

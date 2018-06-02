@@ -1,0 +1,45 @@
+#park-sm-feedback form {
+    display: flex;
+    justify-content: center;
+}
+#park-sm-feedback form input{
+    padding: 10px;
+    border: none;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background: #dce3ed; 
+
+}
+#park-sm-feedback form input[type="button"]{
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px; 
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px; 
+    font-size: 0.8em;
+    background: #ee1a30;
+    color: white;
+    font-weight: 400px;
+    cursor: pointer;
+    transition: ease, 0.5s;
+}
+#park-sm-feedback form input[type="button"]:hover{
+    transform: scale(1.1)
+}
+#park-sm-feedback form .inp{
+    display: flex;
+    padding: 15px;
+}
+
+#park-sm-feedback form .inp .inp-icon{
+    padding: 10px;
+    background: #dce3ed; 
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px; 
+    color: #ee1a30;
+}
+
+#park-sm-feedback h2{
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+}

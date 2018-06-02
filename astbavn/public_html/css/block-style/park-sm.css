@@ -1,0 +1,55 @@
+#park-sm{
+    /* height: 400px; */
+    background: transparent url('/img/smlt.png')no-repeat center center;
+    background-size: 100% 100%;
+    margin: 15px 0;
+}
+
+#park-sm .item-sm img{
+    width: 100%;
+}
+
+#park-sm .item-sm{
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 15px;
+    background: white;
+    transition: ease, 0.7s;
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+#park-sm .item-sm .name h2{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    left: 0;
+    right: 0;
+    color: #08254d;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 15px 0;
+    transition: ease, 0.5s;
+}
+
+#park-sm .item-sm:hover{
+
+    box-shadow: 0 2px 27px #d6d6d6;
+}
+#park-sm .item-sm:hover i{
+    opacity: 1;
+}
+#park-sm .item-sm:hover .name h2{
+    color: red;
+}
+#park-sm .item-sm i{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: #a5a5a5;
+    opacity: 0;
+    transition: ease, 0.5s;
+}
