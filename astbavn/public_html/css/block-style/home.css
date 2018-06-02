@@ -61,7 +61,7 @@
     padding: 15px 0;
 }
 
- .pl-up {
+.pl-up {
     padding: 30px;
 }
 
@@ -148,7 +148,7 @@
     background-color: rgba(0, 0, 0, 0.161);
 }
 
-.pl-down button{
+.pl-down button {
     padding: 15px 30px;
     height: 100%;
     border: none;
@@ -157,9 +157,41 @@
     cursor: pointer;
     transition: ease, 0.5s;
 }
-.pl-down button i{
+
+.pl-down button i {
     margin: 0 5px;
 }
-.pl-down button:hover{
+
+.pl-down button:hover {
     font-size: 16px;
 }
+
+@media (max-width:768px) {
+    .custom-radios input[type="radio"]+label span {
+        width: 15px;
+        height: 15px;
+        margin: -1px 0px 0 0;
+    }
+    .custom-radios input[type="radio"]+label span i{
+        font-size: 1.4em;
+    }
+    .pd-none{
+        padding: 0;
+    }
+    .custom-radios input[type="radio"]+label {
+        font-size: 10px;
+    }
+    .pl-down button {
+        width: 100%;
+    }
+    .custom-radios {
+        padding: 15px 5px;
+    }
+    .home-name h1 {
+        font-size: 2em;
+    }
+    #home {
+        height: 200px;
+    }
+}
+

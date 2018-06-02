@@ -12,17 +12,17 @@
         </div> -->
     </div>
 </section>
-<div class="container">
+<div class="container pd-none">
     <div class="home-fl">
         <div class="pl-up">
             <div class="row">
-                <div class="col">
+                <div class="col-12 col-lg">
                     <div class="home-fl-name">
                         <h2>Дистанция:</h2>
                     </div>
                     <input class="slider" type="range" name="" id="">
                 </div>
-                <div class="col">
+                <div class="col-12 col-lg">
                     <div class="home-fl-name">
                         <h2>Количество пассажиров:</h2>
                     </div>
@@ -32,7 +32,7 @@
         </div>
         <div class="pl-down">
             <div class="row no-gutters">
-                <div class="col">
+                <div class="col-12 col-lg">
                     <div class="custom-radios">
                         <div>
                             <input type="radio" id="color-1" name="color" value="color-1" checked>
@@ -97,7 +97,7 @@
                         </li>
                     </ul> -->
                 </div>
-                <div class="col-auto">
+                <div class="col-12 col-lg-auto">
                     <button>
                         <i class="icon ion-ios-search fa-lg"></i>
                         Начать поиск

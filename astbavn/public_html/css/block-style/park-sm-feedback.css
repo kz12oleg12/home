@@ -10,6 +10,9 @@
     background: #dce3ed; 
 
 }
+#park-sm-feedback form input[type="text"]{
+width: 100%;
+}
 #park-sm-feedback form input[type="button"]{
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px; 
@@ -28,6 +31,7 @@
 #park-sm-feedback form .inp{
     display: flex;
     padding: 15px;
+    justify-content: center;
 }
 
 #park-sm-feedback form .inp .inp-icon{
@@ -41,5 +45,5 @@
 #park-sm-feedback h2{
     text-align: center;
     margin: 15px;
-    padding: 15px;
+    padding: 15px 0;
 }

@@ -2,7 +2,7 @@
 <section id="park-sm">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-6 col-lg-3">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                 <div class="item-sm">
                     <i class="icon ion-md-eye fa-lg"></i>
                     <img src="/img/park-sm/1.png" alt="">
@@ -11,7 +11,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-3">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                 <div class="item-sm">
                     <i class="icon ion-md-eye fa-lg"></i>
                     <img src="/img/park-sm/2.png" alt="">
@@ -20,7 +20,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-3">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                 <div class="item-sm">
                     <i class="icon ion-md-eye fa-lg"></i>
                     <img src="/img/park-sm/3.png" alt="">
@@ -29,7 +29,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-3">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                 <div class="item-sm">
                     <i class="icon ion-md-eye fa-lg"></i>
                     <img src="/img/park-sm/4.png" alt="">
@@ -39,7 +39,7 @@
                 </div>
             </div>
 
-            <div class="col-12 col-md-6 col-lg-3">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                 <div class="item-sm">
                     <i class="icon ion-md-eye fa-lg"></i>
                     <img src="/img/park-sm/1.png" alt="">
@@ -48,7 +48,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-3">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                 <div class="item-sm">
                     <i class="icon ion-md-eye fa-lg"></i>
                     <img src="/img/park-sm/2.png" alt="">
@@ -57,7 +57,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-3">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                 <div class="item-sm">
                     <i class="icon ion-md-eye fa-lg"></i>
                     <img src="/img/park-sm/3.png" alt="">
@@ -66,7 +66,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-3">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                 <div class="item-sm">
                     <i class="icon ion-md-eye fa-lg"></i>
                     <img src="/img/park-sm/4.png" alt="">
@@ -76,7 +76,7 @@
                 </div>
             </div>
 
-            <div class="col-12 col-md-6 col-lg-3">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                 <div class="item-sm">
                     <i class="icon ion-md-eye fa-lg"></i>
                     <img src="/img/park-sm/1.png" alt="">
@@ -85,7 +85,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-3">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                 <div class="item-sm">
                     <i class="icon ion-md-eye fa-lg"></i>
                     <img src="/img/park-sm/2.png" alt="">
@@ -94,7 +94,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-3">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                 <div class="item-sm">
                     <i class="icon ion-md-eye fa-lg"></i>
                     <img src="/img/park-sm/3.png" alt="">
@@ -103,7 +103,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-3">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                 <div class="item-sm">
                     <i class="icon ion-md-eye fa-lg"></i>
                     <img src="/img/park-sm/4.png" alt="">
@@ -113,7 +113,7 @@
                 </div>
             </div>
 
-            <div class="col-12 col-md-6 col-lg-3">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                 <div class="item-sm">
                     <i class="icon ion-md-eye fa-lg"></i>
                     <img src="/img/park-sm/1.png" alt="">
@@ -122,7 +122,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-3">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                 <div class="item-sm">
                     <i class="icon ion-md-eye fa-lg"></i>
                     <img src="/img/park-sm/2.png" alt="">
@@ -131,7 +131,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-3">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                 <div class="item-sm">
                     <i class="icon ion-md-eye fa-lg"></i>
                     <img src="/img/park-sm/3.png" alt="">
@@ -140,7 +140,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-3">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                 <div class="item-sm">
                     <i class="icon ion-md-eye fa-lg"></i>
                     <img src="/img/park-sm/4.png" alt="">

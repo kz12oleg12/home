@@ -53,3 +53,10 @@
     opacity: 0;
     transition: ease, 0.5s;
 }
+
+@media (max-width:768px){
+    #park-sm{
+        /* height: 400px; */
+        background: transparent;
+    }
+}
