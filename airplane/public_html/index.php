@@ -68,6 +68,11 @@
 					<?php require_once("bl/bl_4.php"); ?>
 				</div>
 			</div>
+			<div class="item">
+				<div class="bl-it">
+					<?php require_once("bl/bl_5.php"); ?>
+				</div>
+			</div>
 		</div>
 	</section>
 
@@ -76,6 +81,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
 	<script src="/modules/owlcarousel/owl.carousel.min.js"></script>
+	<script src="/js/jquery.waypoints.min.js"></script>
 	<script src="/js/resize.js"></script>
 	<script src="/js/index.js"></script>
 	<script>

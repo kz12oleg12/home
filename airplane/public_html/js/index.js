@@ -15,3 +15,5 @@ var scene3 = document.getElementById('scene3');
 var parallaxInstance = new Parallax(scene3, {
     relativeInput: true
 });
+// BL_5
+$('#bl_5 .gerl').addClass('animated slideInUp');

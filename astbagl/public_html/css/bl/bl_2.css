@@ -1,0 +1,15 @@
+#bl_2 {
+    background: transparent url('/img/bl/bl_2.jpg') no-repeat center center;
+    background-size: cover;
+}
+#bl_2 .bl_2_it {
+    text-align: center;
+    padding: 15px;
+}
+#bl_2 .bl_2_it img{
+    width: 20%;
+    margin: 15px auto;
+}
+#bl_2 .bl_2_cont{
+    width: 100%;
+}

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<winginx>
+  <project>
+    <name>astbagl</name>
+    <url>http://astbagl/</url>
+    <root>home/astbagl</root>
+  </project>
+</winginx>
