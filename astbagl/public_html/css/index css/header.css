@@ -161,6 +161,7 @@ header {
 
 header.active {
     background: white;
+    transition: 0.3s;
 }
 
 /* language */
@@ -210,10 +211,12 @@ header.active .cl-it {
     align-items: center;
     justify-content: flex-end;
     text-transform: uppercase;
-    color: red;
+    color: white;
     cursor: pointer;
 }
-
+header.active .nav-menu{
+    color: red;
+}
 .brand::before {
     content: url('/img/logo.svg');
     width: 100%;
@@ -231,7 +234,7 @@ header.active .brand::before {
 }
 
 header.active .telephone::before {
-    content: url('/img/icon/phone.svg');
+    content: url('/img/icon/phoneW.svg');
 }
 
 /* .cl-it::before{

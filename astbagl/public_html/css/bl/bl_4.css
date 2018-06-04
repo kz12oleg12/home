@@ -1,4 +1,48 @@
 #bl_4 {
     background: transparent url('/img/bl/bl_4.jpg') no-repeat center center;
     background-size: cover;
+    /* align-items: flex-start; */
+    
+}
+
+.gerl{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: translateX(-100vw);
+    width: 100%;
+}
+#bl_4 .name{
+    margin-top: 15px;
+}
+#bl_4 .name h2{
+    font-size: 2.5em;
+    color: white;
+}
+#bl_4 .name .icon{
+    color: rgb(216, 3, 3);
+}
+
+#bl_4 .pr-it{
+    padding: 25px;
+}
+
+.part{
+    overflow-y:scroll ;
+    height: 500px;
+    margin: auto;
+    overflow-x: hidden;
+}
+.napr-it{
+    padding: 15px;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    border: 1px solid;
+    margin: 15px 0;
+}
+.napr-it h2{
+    padding: 5px 0;
+    border-bottom: 1px dotted;
 }

@@ -32,11 +32,16 @@
 
 	<!-- INDEX CSS -->
 	<link rel="stylesheet" href="/css/index css/header.css">
+	<link rel="stylesheet" href="/css/index css/nav.css">
 	<!-- JS -->
 
 	<style>
 		body {
 			font-family: 'Open Sans', sans-serif;
+		}
+
+		body.stop {
+			overflow: hidden;
 		}
 	</style>
 </head>
@@ -150,12 +155,26 @@
 			</div>
 		</div>
 	</header>
-	
+
 	<?php require_once("top/nav.php"); ?>
 	<div class="bl-it">
 		<?php require_once("bl/bl_1.php"); ?>
 	</div>
-
+	<div class="bl-it">
+		<?php require_once("bl/bl_2.php"); ?>
+	</div>
+	<div class="bl-it">
+		<?php require_once("bl/bl_3.php"); ?>
+	</div>
+	<div class="bl-it">
+		<?php require_once("bl/bl_4.php"); ?>
+	</div>
+	<div class="bl-it">
+		<?php require_once("bl/bl_5.php"); ?>
+	</div>
+	<div class="bl-it">
+		<?php require_once("bl/bl_6.php"); ?>
+	</div>
 
 
 
@@ -173,19 +192,36 @@
 	<script src="/js/jquery.waypoints.min.js"></script>
 	<script src="/js/index.js"></script>
 	<script>
-			$(document).ready(function () {
-				$("a").click(function () {
-					var elementClick = $(this).attr("href");
-					var destination = $(elementClick).offset().top;
-					if ($.browser) {
-						$('body').animate({ scrollTop: destination }, 1100); //1100 - скорость
-					} else {
-						$('html').animate({ scrollTop: destination }, 1100);
-					}
-					return false;
-				});
+		$('.nav-menu').click(function () {
+			$('.navbar-list').addClass('active');
+			$('.jolk').addClass('active');
+			$('body').addClass('stop');
+		});
+		$('.nv-cl').click(function () {
+			$('.navbar-list').removeClass('active');
+			$('.jolk').removeClass('active');
+			$('body').removeClass('stop');
+		});
+		$('.jolk').click(function () {
+			$('.navbar-list').removeClass('active');
+			$('.jolk').removeClass('active');
+			$('body').removeClass('stop');
+		});
+	</script>
+	<script>
+		$(document).ready(function () {
+			$("a").click(function () {
+				var elementClick = $(this).attr("href");
+				var destination = $(elementClick).offset().top;
+				if ($.browser) {
+					$('body').animate({ scrollTop: destination }, 1100); //1100 - скорость
+				} else {
+					$('html').animate({ scrollTop: destination }, 1100);
+				}
+				return false;
 			});
-		</script>
+		});
+	</script>
 </body>
 
 </html>

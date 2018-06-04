@@ -1,11 +1,37 @@
 #bl_5 {
     background: transparent url('/img/bl/bl_5.jpg') no-repeat center center;
     background-size: cover;
+    /* align-items: flex-start; */
+    
 }
 
-.gerl{
+/* .gerl{
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 8%;
+    bottom: 0;
+    transform: translateX(-100vw);
+    width: 100%;
+} */
+#bl_5 .name{
+    margin-top: 15px;
+}
+#bl_5 .name h2{
+    font-size: 2.5em;
+    color: white;
+}
+#bl_5 .name .icon{
+    color: rgb(216, 3, 3);
+}
+
+#bl_5 .pr-it{
+    padding: 25px;
+}
+
+.part{
+    overflow-y:scroll ;
+    height: 500px;
+    margin: auto;
+    overflow-x: hidden;
+    /* overflow: hidden; */
 }

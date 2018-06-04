@@ -14,13 +14,26 @@ var scene2 = document.getElementById('scene2');
 var parallaxInstance = new Parallax(scene2, {
     relativeInput: true
 });
-//BL_3
-// var scene3 = document.getElementById('scene3');
-// var parallaxInstance = new Parallax(scene3, {
-//     relativeInput: true
-// });
+// BL_3
+var scene3 = document.getElementById('scene3');
+var parallaxInstance = new Parallax(scene3, {
+    relativeInput: true
+});
+// BL_4
+var waypoint = new Waypoint({
+    element: document.getElementById('bl_4'),
+    handler: function (direction) {
+        $('#bl_4 .gerl').addClass('animated slideInLeft');
+    },offset:'30%'
+});
 // BL_5
-// $('#bl_5 .gerl').addClass('animated slideInUp');
+var waypoint = new Waypoint({
+    element: document.getElementById('bl_5'),
+    handler: function (direction) {
+        $('#bl_5 .gerl').addClass('animated slideInLeft');
+    },offset:'30%'
+});
+// $('#bl_5 .gerl').addClass('animated slideInLeft');
 
 // TOP
 var waypoint = new Waypoint({
@@ -30,3 +43,6 @@ var waypoint = new Waypoint({
         // alert('asdasd')
     },offset:'-50%'
 });
+
+
+
