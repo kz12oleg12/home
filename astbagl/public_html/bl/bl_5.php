@@ -4,14 +4,12 @@
     <img class="gerl" src="/img/anim-el/gerl.png" alt="">
     <div class="bl-5-cont">
         <div class="container">
-            <div class="row">
-                <div class="col-auto offset-3">
+            <div class="row no-gutters justify-content-end">
+                <div class="col">
                     <div class="name">
-                        <h2>
-                            Наши
+                        <h2>Наши партнеры
                             <i class="icon ion-ios-remove fa-lg"></i>
                         </h2>
-                        <h2>партнеры</h2>
                     </div>
                 </div>
                 <div class="col">

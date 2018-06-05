@@ -1,7 +1,7 @@
 // BL_1
 
 var width = document.documentElement.clientWidth;
-if(width > 992){
+if (width > 992) {
     var scene = document.getElementById('scene');
     var parallaxInstance = new Parallax(scene, {
         relativeInput: true
@@ -24,14 +24,14 @@ var waypoint = new Waypoint({
     element: document.getElementById('bl_4'),
     handler: function (direction) {
         $('#bl_4 .gerl').addClass('animated slideInLeft');
-    },offset:'30%'
+    }, offset: '30%'
 });
 // BL_5
 var waypoint = new Waypoint({
     element: document.getElementById('bl_5'),
     handler: function (direction) {
         $('#bl_5 .gerl').addClass('animated slideInLeft');
-    },offset:'30%'
+    }, offset: '30%'
 });
 // $('#bl_5 .gerl').addClass('animated slideInLeft');
 // BL_5
@@ -39,7 +39,7 @@ var waypoint = new Waypoint({
     element: document.getElementById('bl_7'),
     handler: function (direction) {
         $('#bl_7 .gerl').addClass('animated slideInLeft');
-    },offset:'30%'
+    }, offset: '30%'
 });
 // TOP
 var waypoint = new Waypoint({
@@ -47,8 +47,23 @@ var waypoint = new Waypoint({
     handler: function (direction) {
         $('header').toggleClass('active');
         // alert('asdasd')
-    },offset:'-50%'
+    }, offset: '-50%'
 });
+
+
+
+$('#play').click(function () {
+    $('#video').addClass('active');
+    $('.jolk').addClass('active');
+    $('body').addClass('stop');
+});
+$('.jolk').click(function () {
+    $('#video').removeClass('active');
+    $('.jolk').removeClass('active');
+    $('body').removeClass('stop');
+});
+
+
 
 
 

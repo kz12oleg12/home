@@ -51,10 +51,39 @@
     font-size: 1em;
     background: #ee1a30;
     color: white;
-    font-weight: 400px;
     cursor: pointer;
     transition: ease, 0.5s;
     
+}
+#bl_1 .inp{
+    position: relative;
+    overflow: hidden;
+}
+#bl_1 .inp::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 100%;
+    opacity: 0;
+    width: 0px;
+    height: 0px;
+    margin: auto;
+    background: rgb(255, 255, 255);
+    transition: all, 1s;
+    transition-duration: 0.8s;
+}
+
+#bl_1 .inp:hover::before {
+    background: rgb(255, 255, 255);
+    width: 500px;
+    height: 500px;
+    opacity: 0.5;
+    /* transition: all, 25s; */
+    /* transition-duration: 0.5s; */
+    transform: scale(1.5)
 }
 
 #bl_1 form input[type="button"]:hover {

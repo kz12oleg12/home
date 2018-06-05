@@ -75,7 +75,21 @@ font-size: 16px;
 /* .next-sl{
     cursor: pointer;
 } */
-
+.jolk{
+    position: fixed;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #082247;
+    z-index: -1;
+    transition: 1s;
+}
+.jolk.active{
+    z-index: 9;
+    opacity: 0.8;
+}
 
 @media (max-width:992px) {
     .navbar .navbar-list {
@@ -159,21 +173,7 @@ font-size: 16px;
         margin: 0 5px;
 
     }
-    .jolk{
-        position: fixed;
-        opacity: 0;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background: #082247;
-        z-index: -1;
-        transition: 1s;
-    }
-    .jolk.active{
-        z-index: 9;
-        opacity: 0.8;
-    }
+    
 }
 
 @media (max-width:576px){

@@ -38,7 +38,7 @@
                         </div>
                         <div class="col-12 col-md col-lg">
                             <div class="inp">
-                                <input type="button" value="БЕСПЛАТНЫЙ ПОДБОР РЕЙСА">
+                                <input type="button" class="bl_1_btnn" value="БЕСПЛАТНЫЙ ПОДБОР РЕЙСА">
                             </div>
                         </div>
                     </div>

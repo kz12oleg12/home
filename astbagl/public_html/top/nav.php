@@ -5,7 +5,7 @@
     <div class="container">
         <div class="navbar">
             <ul class="navbar-list">
-                <a href="#bl_5" class="d-none d-lg-block">
+                <a href="#bl_1" class="d-none d-lg-block">
                     <li class="nav-btn next-sl">
                         <i class="icon ion-md-arrow-down"></i>
                     </li>
@@ -17,37 +17,37 @@
                     </div>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="#bl_2">
                         <i class="icon ion-ios-remove fa-lg d-lg-none"></i>
                         Vip Чартер</a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="#bl_3">
                         <i class="icon ion-ios-remove fa-lg d-lg-none"></i>
                         Групповой Чартер</a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="#bl_4">
                         <i class="icon ion-ios-remove fa-lg d-lg-none"></i>
                         Медицинский Чартер</a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="#bl_5">
                         <i class="icon ion-ios-remove fa-lg d-lg-none"></i>
                         Парк самлетов</a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="#bl_6">
                         <i class="icon ion-ios-remove fa-lg d-lg-none"></i>
                         Парк вертолетов</a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="#bl_7">
                         <i class="icon ion-ios-remove fa-lg d-lg-none"></i>
                         Менеджмент ВС</a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="#bl_8">
                         <i class="icon ion-ios-remove fa-lg d-lg-none"></i>
                         Комплексные решения</a>
                 </li>
@@ -55,5 +55,5 @@
         </div>
     </div>
 </nav>
-<div class="jolk"></div>
+<div id="pause" class="jolk"></div>
 

@@ -2,17 +2,15 @@
 <section id="bl_7" class="bl">
     <img class="gerl" src="/img/anim-el/gerl3.png" alt="">
     <div class="container">
-        <div class="row">
-            <div class="col-auto offset-3">
+        <div class="row no-gutters justify-content-end">
+            <div class="col">
                 <div class="name">
-                    <h2>
-                        Как с
+                    <h2>Как с нами связаться
                         <i class="icon ion-ios-remove fa-lg"></i>
                     </h2>
-                    <h2>нами связаться</h2>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-8">
                 <div class="cont">
                     <div class="row">
                         <div class="col-12">

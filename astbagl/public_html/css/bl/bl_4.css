@@ -2,10 +2,9 @@
     background: transparent url('/img/bl/bl_4.jpg') no-repeat center center;
     background-size: cover;
     /* align-items: flex-start; */
-    
 }
 
-.gerl{
+.gerl {
     position: absolute;
     left: 0;
     right: 0;
@@ -13,36 +12,95 @@
     transform: translateX(-100vw);
     width: 100%;
 }
-#bl_4 .name{
-    margin-top: 15px;
-}
-#bl_4 .name h2{
+
+
+
+#bl_4 .name h2 {
     font-size: 2.5em;
     color: white;
 }
-#bl_4 .name .icon{
-    color: rgb(216, 3, 3);
+
+#bl_4 .name .icon {
+    color: red;
 }
 
-#bl_4 .pr-it{
+#bl_4 .pr-it {
     padding: 25px;
 }
 
-.part{
-    overflow-y:scroll ;
-    height: 500px;
+.part {
+    /* overflow-y:scroll ; */
+    height: 450px;
     margin: auto;
     overflow-x: hidden;
 }
-.napr-it{
+
+.napr-it {
     padding: 15px;
     color: white;
     border-radius: 15px;
     text-align: center;
     border: 1px solid;
-    margin: 15px 0;
+    margin: 15px;
+    font-size: 0.8em;
+    overflow: hidden;
+    position: relative;
 }
-.napr-it h2{
+
+#bl_4 .napr-it a::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: red;
+    content: '';
+    opacity: 0;
+    transition: ease, 0.5s;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#bl_4 .napr-it a::before {
+    content: 'ПОДРОБНЕЕ';
+    color: red;
+    background: white;
+    border-radius: 50px;
+    padding: 5px 15px;
+    opacity: 0;
+    transition: ease, 0.5s;
+    position: relative;
+    z-index: 2;
+}
+
+#bl_4 .napr-it a:hover::before {
+    opacity: 1;
+}
+#bl_4 .napr-it a:hover::before {
+    opacity: 1;
+    transform: scale(1.1);
+}
+#bl_4 .napr-it:hover {
+    border-color: red;
+}
+
+#bl_4 .napr-it a:hover::after {
+    opacity: 0.5;
+}
+
+.napr-it h2 {
     padding: 5px 0;
     border-bottom: 1px dotted;
+}
+
+#bl_4 .napr-it a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }

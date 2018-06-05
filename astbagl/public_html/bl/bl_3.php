@@ -9,7 +9,7 @@
             <img src="/img/anim-el/2.png" alt="" width="100%" height="100%">
         </div>
         <div data-depth="0.0" class="bl-cont">
-            <div class="fl-h h-max">
+            <div class=" h-max">
                 <div class="container">
                     <div class="bl_3_cont">
                         <h1>Наши услуги</h1>

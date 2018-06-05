@@ -3,11 +3,12 @@
     background-size: cover;
     /* align-items: flex-start; */
     color: white
-    
 }
-#bl_6 .name, #bl_6 .text{
+
+#bl_6 .name, #bl_6 .text {
     padding-bottom: 15px;
 }
+
 #bl_6 .name h2 {
     font-size: 4em;
     margin: 15px 0;
@@ -18,20 +19,20 @@
     margin: 15px 0;
 }
 
-#bl_6 .text{
-    line-height: 2;
+#bl_6 .text {
+    line-height: 1.6;
     font-size: 16px;
     font-weight: 300;
     margin: 15px 0;
 }
 
-#bl_6 button{
-    padding: 15px;
+#bl_6 button {
+    padding: 10px 15px;
     background: red;
     border-radius: 50px;
-    color:white;
+    color: white;
     border: none;
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: 300;
     cursor: pointer;
     position: relative;
@@ -50,26 +51,30 @@
     width: 0px;
     height: 0px;
     margin: auto;
-    background:rgb(255, 255, 255);
-    transition:all, 0.1s;
-    transition-duration: 0.3s;
+    background: rgb(255, 255, 255);
+    transition: all, 5s;
+    transition-duration: 0.8s;
 }
-#bl_6 button:active::before{
+
+#bl_6 button:active::before {
     background: rgb(255, 255, 255);
     width: 500px;
     height: 500px;
     opacity: 0;
-    transition:all, 0.1s;
-    transition-duration: 0.8s;
-
+    transition: all, 5s;
+    transition-duration: 0.5s;
 }
-
+#bl_6 button:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
 #bl_6 .bl-video {
     display: flex;
     align-items: center;
     height: 100%;
 }
-#bl_6 .bl-video label{
+
+#bl_6 .bl-video label {
     /* writing-mode: vertical-lr;
     text-align: center;
     transform: rotateZ(180deg);
@@ -81,12 +86,40 @@
     margin: 50px 0;
     display: -webkit-inline-box;
 }
-#bl_6 .bl-video div{
+
+#bl_6 .bl-video div {
     text-align: center;
 }
+
 #bl_6 .bl-video button {
     padding: 20px 25px;
     margin: 35px;
-    box-shadow: 0 0 0px 20px rgba(235, 49, 49, 0.72);
     border-radius: 50%;
+    transition: ease, 3s;
+    transition-duration: 1.5s;
+    box-shadow: 0 0 10px 0px rgba(235, 49, 49, 0.467);
 }
+
+#bl_6 .bl-video button.animat {
+    box-shadow: 0 0 0px 15px rgba(235, 49, 49, 0.72);
+}
+
+#video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: -1;
+    opacity: 0;
+    transition: ease, 1s;
+    width: 450px;
+}
+
+#video.active{
+    z-index: 10;
+    opacity: 1;
+    width: 500px;
+}
+/* .video-joik */

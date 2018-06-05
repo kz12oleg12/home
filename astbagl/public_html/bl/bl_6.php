@@ -23,12 +23,95 @@
                         <label for="">
                             Смотреть видео
                         </label>
-                        <button>
+                        <button onclick="playPause()" id="play">
                             <img src="/img/icon/play.png" alt="">
                         </button>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="vid">
+            <video id="video" src="/file/Tales of Berseria Animated Opening (1080p).mp4" controls></video>
+            <div class="video-joik"></div>
+        </div>
     </div>
 </section>
+
+<script>
+    var videoElem = document.getElementById('video');
+    var playElem = document.getElementById('play');
+    var pauseElem = document.getElementById('pause')
+
+    playElem.onclick = function () {
+        if (videoElem.paused) {
+            videoElem.play();
+        }
+    };
+
+    pauseElem.onclick = function () {
+        if (videoElem.played) {
+            videoElem.pause();
+        }
+    };
+</script>
+<!-- <script>
+    var videoElem = document.getElementById('video');
+    var playElem = document.getElementById('play');
+    var pauseElem = document.getElementById('pause');
+
+    function isFullScreen() {
+        return !!(document.fullScreen ||
+            document.webkitIsFullScreen ||
+            document.mozFullScreen ||
+            document.msFullscreenElement ||
+            document.fullscreenElement);
+    }
+
+    function handleFullScreen() {
+        if (isFullScreen()) {
+            if (document.exitFullscreen) document.exitFullscreen();
+            else if (document.mozCancelFullScreen) document.mozCancelFullScreen();
+            else if (document.webkitCancelFullScreen) document.webkitCancelFullScreen();
+            else if (document.msExitFullscreen) document.msExitFullscreen();
+        } else {
+            if (videoElem.requestFullscreen) videoElem.requestFullscreen();
+            else if (videoElem.mozRequestFullScreen) videoElem.mozRequestFullScreen();
+            else if (videoElem.webkitRequestFullScreen) videoElem.webkitRequestFullScreen();
+            else if (videoElem.msRequestFullscreen) videoElem.msRequestFullscreen();
+        }
+    }
+
+    playElem.onclick = function () {
+        if (videoElem.paused) {
+            handleFullScreen();
+            videoElem.play();
+        }
+    };
+
+    pauseElem.onclick = function () {
+        if (videoElem.played) {
+            videoElem.pause();
+        }
+    };
+</script> -->
+<script>
+    var N = 2000; // 5 секунд
+
+    setInterval(function () {
+        $('#bl_6 .bl-video button').toggleClass('animat');
+    }, N);
+
+</script>
+
+<!-- <script>
+    $('.play').click(function () {
+        $('#video').addClass('active'); 
+        $('.jolk').addClass('active');
+         $('body').addClass('stop');
+    }); 
+    $('.video-cl').click(function () {
+        $('#video').removeClass('active'); 
+        $('.jolk').removeClass('active'); 
+        $('body').removeClass('stop');
+    });
+</script> -->

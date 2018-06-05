@@ -1,0 +1,55 @@
+#bl_8 {
+    /* background: transparent url('/img/bl/bl_8.jpg') no-repeat center center; */
+    background-size: cover;
+    /* align-items: flex-start; */
+}
+
+#bl-8, #bl_8 a {
+    color: #041c40;
+    transition: ease, 0.5s;
+    
+}
+#bl-8, #bl_8 a:hover {
+    color: red;
+}
+#bl_8 .cont {
+    width: 100%;
+}
+
+.footer-up {
+    background: #ededed;
+    padding: 15px;
+}
+
+.footer-dw {
+    padding: 35px;
+}
+
+.footer-up ul, .footer-dw ul {
+    list-style: none;
+}
+
+.footer-up ul li, .footer-dw ul li {
+    margin-bottom: 10px;
+}
+
+.footer-up ul li.lk {
+    color: red;
+}
+
+.dw-it {
+    display: flex;
+}
+
+.dw-line {
+    height: 35px;
+    width: 2px;
+    background: black;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+
+.nt h2 {
+    font-weight: 600;
+    font-size: 20px;
+}
