@@ -1,0 +1,125 @@
+#bl_7 {
+    background: transparent url('/img/bl/bl_7.jpg') no-repeat center center;
+    background-size: cover;
+    /* align-items: flex-start; */
+}
+
+#bl_7 {
+    background: transparent url('/img/bl/bl_4.jpg') no-repeat center center;
+    background-size: cover;
+    /* align-items: flex-start; */
+}
+
+.gerl {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: translateX(-100vw);
+    width: 100%;
+}
+
+#bl_7 .name {
+    margin-top: 15px;
+}
+
+#bl_7 .name h2 {
+    font-size: 2.5em;
+    color: white;
+}
+
+#bl_7 .name .icon {
+    color: rgb(216, 3, 3);
+}
+
+#bl_7 .pr-it {
+    padding: 25px;
+}
+
+.part {
+    overflow-y: scroll;
+    height: 500px;
+    margin: auto;
+    overflow-x: hidden;
+}
+
+.napr-it {
+    padding: 15px;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    border: 1px solid;
+    margin: 15px 0;
+}
+
+.napr-it h2 {
+    padding: 5px 0;
+    border-bottom: 1px dotted;
+}
+
+#bl_7 {
+    color: white;
+}
+
+#bl_7 .cont h2 {
+    padding: 15px 0;
+    font-weight: 400;
+}
+
+#bl_7 .cont h3 {
+    padding-top: 15px;
+}
+#bl_7 .cont{
+    margin-top: 100px;
+}
+#bl_7 form {
+    display: flex;
+    justify-content: center;
+}
+
+#bl_7 form input {
+    padding: 10px;
+    border: none;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background: #dce3ed;
+    width: 100%;
+}
+#bl_7 form textarea{
+    background: #dce3ed;
+    border-radius: 35px;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    font-size: 1.2em;
+    margin: 15px 0;
+}
+#bl_7 form input[type="button"] {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    font-size: 1em;
+    background: #ee1a30;
+    color: white;
+    font-weight: 400px;
+    cursor: pointer;
+    transition: ease, 0.5s;
+}
+
+#bl_7 form input[type="button"]:hover {
+    transform: scale(1.1)
+}
+
+#bl_7 form .inp {
+    display: flex;
+    padding: 15px 0;
+}
+
+#bl_7 form .inp .inp-icon {
+    padding: 10px;
+    background: #dce3ed;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    color: #ee1a30;
+}

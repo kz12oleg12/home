@@ -34,7 +34,13 @@ var waypoint = new Waypoint({
     },offset:'30%'
 });
 // $('#bl_5 .gerl').addClass('animated slideInLeft');
-
+// BL_5
+var waypoint = new Waypoint({
+    element: document.getElementById('bl_7'),
+    handler: function (direction) {
+        $('#bl_7 .gerl').addClass('animated slideInLeft');
+    },offset:'30%'
+});
 // TOP
 var waypoint = new Waypoint({
     element: document.getElementById('bl_1'),

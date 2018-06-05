@@ -175,7 +175,9 @@
 	<div class="bl-it">
 		<?php require_once("bl/bl_6.php"); ?>
 	</div>
-
+	<div class="bl-it">
+		<?php require_once("bl/bl_7.php"); ?>
+	</div>
 
 
 
