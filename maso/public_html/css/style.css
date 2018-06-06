@@ -1,0 +1,15 @@
+.pad10 {
+    padding: 10px;
+}
+
+.pad10-w {
+    padding: 0 15px;
+}
+
+.pad10-y {
+    padding: 15px 0;
+}
+
+.txt-up {
+    text-transform: uppercase;
+}

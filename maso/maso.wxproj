@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<winginx>
+  <project>
+    <name>maso</name>
+    <url>http://maso/</url>
+    <root>home/maso</root>
+  </project>
+</winginx>
