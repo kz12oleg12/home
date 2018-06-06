@@ -5,14 +5,14 @@
     <div class="bl-5-cont">
         <div class="container">
             <div class="row no-gutters justify-content-end">
-                <div class="col">
+                <div class="col-8">
                     <div class="name">
                         <h2>Наши партнеры
                             <i class="icon ion-ios-remove fa-lg"></i>
                         </h2>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-7">
                     <div class="part">
                         <div class="row">
                             <div class="col-6">

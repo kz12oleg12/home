@@ -17,8 +17,9 @@
     margin-top: 15px;
 }
 #bl_5 .name h2{
-    font-size: 2.5em;
+    font-size: 3em;
     color: white;
+    /* text-align: right; */
 }
 #bl_5 .name .icon{
     color: rgb(216, 3, 3);

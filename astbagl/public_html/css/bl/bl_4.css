@@ -16,8 +16,9 @@
 
 
 #bl_4 .name h2 {
-    font-size: 2.5em;
+    font-size: 3em;
     color: white;
+    /* text-align: right; */
 }
 
 #bl_4 .name .icon {

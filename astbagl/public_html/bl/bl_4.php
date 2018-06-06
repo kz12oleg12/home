@@ -7,7 +7,7 @@
     <img class="gerl" src="/img/anim-el/gerl2.png" alt="">
     <div class="container">
         <div class="row no-gutters justify-content-end">
-            <div class="col">
+            <div class="col-8">
                 <div class="name">
                     <h2> Самые популярные направления 
                         <i class="icon ion-ios-remove fa-lg"></i>

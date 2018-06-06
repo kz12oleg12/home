@@ -120,6 +120,6 @@
 #video.active{
     z-index: 10;
     opacity: 1;
-    width: 500px;
+    width: 50%;
 }
 /* .video-joik */
