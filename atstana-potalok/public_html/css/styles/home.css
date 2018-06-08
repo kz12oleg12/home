@@ -1,0 +1,57 @@
+.background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: gray url("/img/home.jpg") no-repeat center center ;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+.bgdark:after {
+    background: rgba(53, 45, 47, 0.184) none repeat scroll 0 0;
+    z-index: -1;
+}
+
+#main {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    align-items: center;
+    /* z-index: 1; */
+}
+
+.main-name {
+    padding: 15px;
+    background: #00000054;
+    width: 60%;
+}
+
+.main-name h2 {
+    color: white;
+    margin: 10px 0;
+}
+
+.main-name h3 {
+    color: white;
+    font-size: 18px;
+}
+
+@media (max-width:992px) {
+    .main-name {
+        padding: 15px;
+        background: #00000054;
+        width: 90%;
+    }
+}
+
+@media (max-width:576px) {
+    .main-name h3 {
+        font-size: 14px;
+    }
+}

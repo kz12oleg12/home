@@ -49,7 +49,8 @@
     ul.navbar-list li a {
         color: #333;
         font-weight: 400;
-        text-transform: uppercase;
+        /* text-transform: uppercase; */
+        font-size: 0.8em;
     }
 
     .nav-cont h2 {
@@ -59,11 +60,6 @@
         color: white;
     }
 
-    .nav-brand h2 {
-        text-transform: uppercase;
-        font-weight: 900;
-        color: #03C8DB;
-    }
 
     .fa-black-light {
         color: #333;
@@ -93,6 +89,34 @@
         width: 100%;
         height: 2px;
         background: #03C8DB;
+    }
+
+    .nav-brand {
+        position: absolute;
+        top: 0;
+        z-index: 20;
+        display: flex;
+    }
+
+    .nav-brand h2 {
+        margin-left: 10px;
+        margin-top: 5%;
+        text-transform: uppercase;
+        font-weight: 900;
+        color: #03C8DB;
+        font-size: 16px;
+    }
+
+    .nav-brand img {
+        width: 150px;
+        height: 120px;
+        background: white;
+        border-bottom: 5px solid #03C8DB;
+        padding: 15px;
+        border-radius: 50%;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+
     }
 
     @media(max-width:992px) {
@@ -135,10 +159,10 @@
                 <div class="col col-lg">
                     <div class="nav-it nav-start">
                         <div class="nav-brand">
-                            <h2>
+                            <img src="/img/logo.png" alt="">
+                            <h2 class="d-none d-lg-block">
                                 Атырауский Мясокомбинат
                             </h2>
-                            <!-- <img src="/img/logo.png" alt=""> -->
                         </div>
                     </div>
                 </div>
