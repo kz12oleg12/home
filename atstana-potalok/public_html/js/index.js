@@ -32,5 +32,9 @@ $(document).ready(function () {
         jolk.removeClass('active');
         body.removeClass('stop');
     });
-
+    jolk.click(function () {
+        menu.removeClass('active');
+        jolk.removeClass('active');
+        body.removeClass('stop');
+    });
 });

@@ -1,0 +1,27 @@
+
+#advantags .item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    font-weight: 900;
+}
+
+#advantags .name h2 {
+    padding: 15px;
+    font-size: 2em;
+}
+
+#advantags .item i {
+    padding: 15px;
+    font-size: 2em;
+}
+
+#advantags .item h3 {
+    font-weight: 900;
+    font-size: 1em;
+}
+
+#advantags .item h3 span {
+    font-size: 2em;
+}

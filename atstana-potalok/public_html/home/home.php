@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="/css/styles/home.css">
 
-<section id="home" class="bg bgdark">
+<section id="home">
     <span class="background"></span>
     <div id="main">
         <div class="container">

@@ -52,6 +52,7 @@ h1, h2 {
     display: none;
     z-index: -1;
     opacity: 0;
+    cursor: pointer;
 }
 
 .jolk.active {
@@ -69,4 +70,13 @@ section.bl{
     align-items: center;
     justify-content: center;
     border-bottom: 5px solid white;
+}
+.lin{
+    height: 50%;
+    width: 2px;
+    background: black;
+}
+
+.name{
+    text-align: center;
 }

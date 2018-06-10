@@ -45,6 +45,7 @@
 	<?php require_once("home/home.php"); ?>
 	<!-- BLOKS -->
 	<?php require_once("blocks/advantags.php"); ?>
+	<?php require_once("blocks/about.php"); ?>
 	<?php require_once("blocks/services.php"); ?>
 	<!-- FEEDBACK -->
 	<?php require_once("feedback/feedback.php"); ?>

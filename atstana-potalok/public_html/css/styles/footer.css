@@ -1,0 +1,32 @@
+#footer-ap {
+    text-align: left;
+    background: black;
+    color: white;
+    padding: 15px;
+    margin: 0;
+}
+
+#footer-ap .name {
+    font-size: 1.5em;
+    text-align: left;
+}
+
+#footer-ap ul {
+    padding: 15px;
+    list-style: none;
+}
+
+#footer-ap ul li {
+    padding: 15px 0;
+    font-size: 1.3em
+}
+
+#footer-ap ul li i{
+    margin-right: 15px;
+}
+
+#footer-ap iframe{
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+}
