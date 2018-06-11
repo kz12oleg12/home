@@ -1,0 +1,53 @@
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+.brand img {
+    padding: 15px;
+    width: 80px;
+    height: 100%;
+}
+
+.brand h1 {
+    padding: 15px;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #1a7fb3;
+}
+
+
+
+
+nav{
+    height: 30px;
+    background: #1a7fb3;
+  }
+  
+.top-contact .item {
+    font-size: 0.5em;
+}
+
+.top-contact .item i {
+    font-size: 50px;
+    color: #1a7fb3;
+}
+
+.top-contact .item img {
+    /* width: 50px; */
+    padding: 15px 5px;
+}
+
+.top-contact .item .cont {
+    padding: 15px 5px;
+}
+
+.top-contact .item .cont h3 {
+    color: gray;
+}
+
+.top-contact .item .cont h2 {
+    font-weight: 600;
+    padding: 5px 0;
+}
