@@ -1,30 +1,34 @@
+header{
+    position: relative;
+    z-index: 1;
+    background: white
+}
+header .container-fluid{
+    padding: 0;
+    overflow: hidden;
+}
 .brand {
     display: flex;
     align-items: center;
+    padding: 0 15px;
+    margin: 0 15px;
+    height: 100%;
 }
 
 .brand img {
     padding: 15px;
-    width: 80px;
+    width: 100px;
     height: 100%;
 }
 
 .brand h1 {
-    padding: 15px;
-    font-size: 1.2em;
+    padding: 0 15px;
+    font-size: 2em;
     font-family: sans-serif;
     font-weight: 600;
     color: #1a7fb3;
 }
 
-
-
-
-nav{
-    height: 30px;
-    background: #1a7fb3;
-  }
-  
 .top-contact .item {
     font-size: 0.5em;
 }
@@ -50,4 +54,37 @@ nav{
 .top-contact .item .cont h2 {
     font-weight: 600;
     padding: 5px 0;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    background: #1a7fb3;
+    width: 100%;
+    height: 60px;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    color: white;
+    padding: 10px 15px;
+    font-size: 1.3em;
+}
+nav ul li a:hover{
+    border-bottom: 1px solid white;
+}
+nav ul li {
+    margin: auto;
+    padding: 15px;
+}
+
+nav .nav-line {
+    height: 15px;
+    width: 1px;
+    background: white;
+}
+
+nav {
+    display: flex;
+    height: 60px;
 }

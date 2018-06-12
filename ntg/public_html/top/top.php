@@ -6,14 +6,17 @@
             <div class="col-4">
                 <div class="brand">
                     <img src="/img/logo.svg" alt="">
-                    <h1>North Trans Group</h1>
+                    <span>
+                        <h1>North Trans</h1>
+                        <h1> Group</h1>
+                    </span>
                 </div>
             </div>
 
             <div class="col">
                 <div class="row">
 
-                    <div class="col-10 ml-auto">
+                    <div class="col-6 ml-auto">
                         <div class="top-contact">
                             <div class="row">
 
@@ -56,17 +59,42 @@
                     </div>
 
                     <div class="col-12">
-                          
+
                         <nav>
-                                <img src="/img/icon/ty.svg" alt="" width="20px" height="100%">
-                                <ul class="nav-list">
-                                    <li>About</li>
-                                    <li>Advanced</li>
-                                    <li>Services</li>
-                                    <li>Gallery</li>
-                                    <li>Contact</li>
- 
-                                </ul>
+                            <div class="div">
+                                <svg width="60px" height="60px">
+                                    <polygon points="1,60 60,0 60,60" fill="#1a7fb3" stroke="purple" stroke-width="0"></polygon>
+                                </svg>
+                            </div>
+                            <ul class="nav-list">
+                                <li>
+                                    <a href="#">About</a>
+                                </li>
+                                <li>
+                                    <div class="nav-line"></div>
+                                </li>
+                                <li>
+                                    <a href="#">Advanced</a>
+                                </li>
+                                <li>
+                                    <div class="nav-line"></div>
+                                </li>
+                                <li>
+                                    <a href="#">Services</a>
+                                </li>
+                                <li>
+                                    <div class="nav-line"></div>
+                                </li>
+                                <li>
+                                    <a href="#">Gallery</a>
+                                </li>
+                                <li>
+                                    <div class="nav-line"></div>
+                                </li>
+                                <li>
+                                    <a href="#">Contact</a>
+                                </li>
+                            </ul>
                         </nav>
                     </div>
                 </div>

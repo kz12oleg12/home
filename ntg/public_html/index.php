@@ -40,6 +40,8 @@
 	<?php // in('ta'); ?>
 	<!-- TOP -->
 	<?php require_once("top/top.php"); ?>
+	<!-- HOME -->
+	<?php require_once("home/home.php"); ?>
 	
 
 	<div class="jolk"></div>
