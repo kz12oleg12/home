@@ -1,0 +1,86 @@
+.work-b {
+    width: 100%;
+    height: 100px;
+    background: #1a7fb3;
+}
+
+#work .container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+#work .item {
+    padding: 15px;
+    /* margin: 15px 0; */
+    text-align: center;
+}
+
+#work .item span {
+    font-size: 50px;
+    font-weight: 600;
+    margin: 0 10px;
+    color: #34446e;
+}
+
+#work .item h3 {
+    text-transform: none;
+    font-size: 1em;
+    font-weight: 500;
+    margin: 15px;
+}
+
+#work .name {
+    text-align: right;
+    padding: 15px;
+    z-index: 2;
+    margin: 15px;
+}
+
+#work .name h3 {
+    font-family: 'Avante';
+    color: lightgray;
+}
+
+#work .name h2 {
+    font-weight: 600;
+    color: white;
+}
+
+#work .ab-line {
+    width: 100px;
+    background: #ffffff;
+    height: 2px;
+    margin-top: 15px;
+    margin-left: auto;
+}
+
+#work {
+    /* background: transparent url(/img/work.jpg) no-repeat center center; */
+    /* background-size: 100% 100%; */
+    margin-bottom: 100px;
+}
+
+#work .item img {
+    width: 40px;
+    /* height: 50px; */
+}
+.work-fon{
+    position: absolute;
+    background: #1a7fb3;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 25%;
+    z-index: -1;
+    border-bottom: 100px solid lightgray;
+}
+
+#work .content{
+    background: white;
+    padding: 15px;
+    width: 80%;
+    margin: auto;
+    box-shadow: 5px 5px 10px #00000052;
+    position: relative;
+    z-index: 2;
+}

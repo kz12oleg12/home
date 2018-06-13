@@ -1,14 +1,15 @@
 <style>
     #link{
         padding: 15px;
-        background: white;
+        background: #1a7fb3;;
     }
 
     .footer-name h2 {
         text-align: center;
         text-transform: uppercase;
-        color: black;
+        color: white;
         font-size: 14px;
+        font-weight: 600;
 
     }
 
@@ -19,8 +20,8 @@
     }
 
     #link-astanait a {
-        color: black;
-        font-weight: 900;
+        color: white;
+        font-weight: 600;
     }
 
     #link-astanait a:hover {

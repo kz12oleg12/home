@@ -5,7 +5,7 @@
         <div class="row">
             <div class="col br-r">
                 <div class="name">
-                    <h1>Преимущества</h1>
+                    <h1>Почему мы</h1>
                 </div>
             </div>
             <div class="col br-r">

@@ -49,8 +49,13 @@
 	<?php require_once("blocks/about.php"); ?>
 	<?php require_once("blocks/advantags.php"); ?>
 	<?php require_once("blocks/services.php"); ?>
-
-
+	<?php require_once("blocks/work.php"); ?>
+	<!-- FEEDBACK -->
+	<?php require_once("feedback/feedback.php"); ?>
+	<!-- FOOTER -->
+	<?php require_once("footer/footer.php"); ?>
+	<!-- LINK -->
+	<?php require_once("link/link.php"); ?>
 	<div class="jolk"></div>
 
 

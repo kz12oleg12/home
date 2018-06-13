@@ -17,13 +17,6 @@
 #about .name h2{
     font-weight: 600;
 }
-
-#about .content{
-    padding: 15px;
-    font-size: 1.5em;
-    text-align: justify;
-    line-height: 1.5;
-}
 #about .ab-line{
     width: 100px;
     background: #1a7fb3;
@@ -31,6 +24,14 @@
     margin-top: 15px;
     margin-left: auto;
 }
+
+#about .content{
+    padding: 15px;
+    font-size: 1.5em;
+    text-align: justify;
+    line-height: 1.5;
+}
+
 #about .ab{
     padding: 15px;
 }

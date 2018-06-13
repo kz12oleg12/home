@@ -3,6 +3,7 @@
     background: #1a7fb3;
     color: white;
     margin: 15px 0;
+    box-shadow: inset 0px 0px 10px 0px #0000007a;
 }
 #advantags h1 {
     font-size: 2.5em;

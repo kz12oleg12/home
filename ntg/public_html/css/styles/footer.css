@@ -1,0 +1,53 @@
+footer {
+    position: relative;
+    height: 350px;
+    color: white;
+}
+
+footer .footer-fon {
+    background: transparent url('/img/feedback.jpg') no-repeat fixed center center;
+    background-size: cover;
+    height: 300px;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+footer .card {
+    background: #1a7fb3;
+    padding: 15px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 15px;
+}
+
+footer ul li {
+    padding-bottom: 15px;
+}
+
+footer ul li i {
+    margin-right: 5px;
+}
+
+footer .card ul li a {
+    color: white;
+    text-decoration: underline;
+    text-align: left;
+}
+
+footer .card ul li a:hover {
+   color: #d47a42;
+}
+
+footer .name h2 {
+    font-size: 1.5em;
+    font-weight: 900;
+    color: white;
+    text-align: left;
+    font-family: 'Avante';
+    font-weight: 900;
+}

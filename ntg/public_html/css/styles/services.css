@@ -1,65 +1,114 @@
-#services{
+#services {
     margin: 15px 0;
     padding: 15px;
 }
-#services .name{
+
+#services .name {
     text-align: left;
     padding: 15px;
 }
 
-#services .name h3{
+#services .name h3 {
     font-family: 'Avante';
     color: gray;
 }
-#services .name h2{
+
+#services .name h2 {
     font-weight: 600;
 }
-#services .ab-line{
+
+#services .ab-line {
     width: 100px;
     background: #1a7fb3;
     height: 2px;
     margin-top: 15px;
     margin-right: auto;
 }
-.nav-servis{
+
+.nav-servis {
     list-style: none;
     margin: 15px;
+    margin-left: 30px;
 }
-.nav-servis li a{
+.nav-servis li{
+    padding: 10px;
+}
+.nav-servis li a {
     padding: 15px 0;
     display: block;
-    border-bottom: 1px solid gray;
-    width: 60%;
+    border-bottom: 1px solid lightgray;
+    /* width: 60%; */
+    font-weight: 500;
+    color: black;
+    transition: all, 0.5s;
 }
 
-#services .owl-carousel .item{
+.nav-servis li a:hover {
+    border-bottom: 2px solid #1a7fb3;
+}
+.nav-servis li a:hover::after {
+    content: '';
+    background: #1a7fb3;
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: all, 0.5s;
+}
+#services .owl-carousel .item {
     padding: 15px;
 }
-#services .owl-carousel .item img{
-width: 90%;
+
+#services .owl-carousel .item img {
+    width: 90%;
+    height: 300px;
 }
-.card{
+
+.card {
     background: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.397);
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.18);
     padding: 15px;
     margin-left: 35px;
 }
-.card-name h3{
+
+.card-name h3 {
     background: #1a7fb3;
     padding: 5px;
     margin: 15px 0;
-    font-weight: 600;
+    font-weight: 400;
     color: white;
 }
-.card p{
+
+.card p {
     line-height: 1.5;
     text-align: justify;
     padding: 15px 5px;
 }
-.card a{
+
+.card a {
     width: 100%;
     display: block;
     text-align: right;
     text-decoration: underline;
     font-style: italic;
+    color: #1a7fb3
+}
+
+.crd {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.crd-f {
+    width: 300px;
+    height: 200px;
+    background: #c1c1c1;
 }

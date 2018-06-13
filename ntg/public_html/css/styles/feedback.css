@@ -1,0 +1,96 @@
+#feedback{
+    margin-bottom: 5%;
+}
+#feedback .name {
+    text-align: left;
+    padding: 15px;
+}
+
+#feedback .name h3 {
+    font-family: 'Avante';
+    color: gray;
+}
+
+#feedback .name h2 {
+    font-weight: 600;
+}
+
+#feedback .ab-line {
+    width: 100px;
+    background: #1a7fb3;
+    height: 2px;
+    margin-top: 15px;
+    margin-right: auto;
+}
+
+#feedback .accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+#feedback .active, .accordion:hover {
+    background-color: #ccc;
+}
+
+#feedback .accordion:after {
+    content: '\002B';
+    color: #1a7fb3;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+#feedback .active:after {
+    content: "\2212";
+}
+
+#feedback .panel {
+    padding: 0 15px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    text-align: justify;
+}
+
+#feedback form {
+    padding: 0 15px;
+}
+
+#feedback input[type="text"],#feedback form textarea,#feedback input[type="button"]  {
+    margin: 5px 0;
+    padding: 10px;
+    width: 100%;
+}
+
+#feedback input[type="button"]{
+ border: none;
+ color: white;
+ background: #d47a42;
+ border:1px solid #d47a42;
+ text-transform: uppercase;
+ cursor: pointer;
+ font-family: 'Avante';
+}
+
+#feedback input[type="button"]:hover{
+    border:1px solid black;
+}
+
+#feedback .acc{
+    padding: 0 15px;
+}
+
+#feedback .feed{
+    box-shadow: 5px 5px 10px #00000047;
+    padding: 15px;
+}

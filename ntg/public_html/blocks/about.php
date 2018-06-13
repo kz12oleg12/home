@@ -10,7 +10,8 @@
                 <div class="ab">
                     <div class="name">
                         <h3>О компании</h3>
-                        <h2>Транспорно-экспедиционая компания</h2>
+                        <!-- <h2>Транспорно-экспедиционая компания</h2> -->
+                        <h2>North trans group</h2>
                         <div class="ab-line"></div>
                     </div>
                     <div class="content">
