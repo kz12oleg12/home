@@ -3,7 +3,7 @@ resize();
 window.onresize = resize;
 
 function resize() {
-    var height = document.documentElement.clientHeight - 0;
+    var height = document.documentElement.clientHeight - 130;
     var width = document.documentElement.clientWidth;
     var home = $('#home');
     var main = $(".main");

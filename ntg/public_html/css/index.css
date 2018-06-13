@@ -1,5 +1,12 @@
+@font-face {
+    font-family: "Avante";
+    src: url("/font/7fonts.ru_60AVANTE_B.TTF") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
 body {
-    font-family: 'Open Sans', serif;
+    font-family: 'Montserrat', sans-serif;
     overflow-y: scroll;
 }
 
@@ -36,7 +43,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: auto;
 }
 
-.fl{
+.fl {
     display: flex;
 }
 
@@ -63,20 +70,20 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
 }
 
-
-section.bl{
+section.bl {
     /* background: lightgray; */
     display: flex;
     align-items: center;
     justify-content: center;
     border-bottom: 5px solid white;
 }
-.lin{
+
+.lin {
     height: 50%;
     width: 2px;
     background: black;
 }
 
-.name{
+.name {
     text-align: center;
 }

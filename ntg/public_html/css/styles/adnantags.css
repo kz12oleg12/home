@@ -1,0 +1,23 @@
+#advantags {
+    padding: 15px;
+    background: #1a7fb3;
+    color: white;
+    margin: 15px 0;
+}
+#advantags h1 {
+    font-size: 2.5em;
+    font-weight: 600;
+    text-align: left;
+    padding: 15px 0;
+}
+#advantags h2 span{
+    font-size: 1.5em;
+    font-weight: 400;
+}
+#advantags h2 {
+    text-align: center;
+    padding: 15px 0;
+}
+#advantags .br-r{
+    border-right: 1px solid white;
+}

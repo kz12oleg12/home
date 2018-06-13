@@ -22,11 +22,14 @@
 
 	<!-- FONT -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,600,700,900" rel="stylesheet">
-	
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=cyrillic,cyrillic-ext,latin-ext,vietnamese" rel="stylesheet">
 
 	<!-- JS -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+	<script src="/modules/owlcarousel/owl.carousel.min.js"></script>
+	<link rel="stylesheet" href="/modules/owlcarousel/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="/modules/owlcarousel/assets/owl.theme.default.min.css">
 	<script src="/js/resize.js"></script>
 	<script src="/js/index.js"></script>
 
@@ -42,7 +45,11 @@
 	<?php require_once("top/top.php"); ?>
 	<!-- HOME -->
 	<?php require_once("home/home.php"); ?>
-	
+	<!-- BLOCKS -->
+	<?php require_once("blocks/about.php"); ?>
+	<?php require_once("blocks/advantags.php"); ?>
+	<?php require_once("blocks/services.php"); ?>
+
 
 	<div class="jolk"></div>
 

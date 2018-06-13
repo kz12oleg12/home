@@ -1,0 +1,36 @@
+#about{
+    margin: 15px;
+    padding: 15px;
+}
+#about img{
+    width: 50%;
+}
+#about .name{
+    text-align: right;
+    padding: 15px;
+}
+
+#about .name h3{
+    font-family: 'Avante';
+    color: gray;
+}
+#about .name h2{
+    font-weight: 600;
+}
+
+#about .content{
+    padding: 15px;
+    font-size: 1.5em;
+    text-align: justify;
+    line-height: 1.5;
+}
+#about .ab-line{
+    width: 100px;
+    background: #1a7fb3;
+    height: 2px;
+    margin-top: 15px;
+    margin-left: auto;
+}
+#about .ab{
+    padding: 15px;
+}
