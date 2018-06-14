@@ -1,23 +1,34 @@
-#about{
+#about {
     margin: 15px;
     padding: 15px;
 }
-#about img{
+
+#about .ab-img {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#about .ab-img img {
     width: 50%;
 }
-#about .name{
+
+#about .name {
     text-align: right;
     padding: 15px;
 }
 
-#about .name h3{
+#about .name h3 {
     font-family: 'Avante';
     color: gray;
 }
-#about .name h2{
+
+#about .name h2 {
     font-weight: 600;
 }
-#about .ab-line{
+
+#about .ab-line {
     width: 100px;
     background: #1a7fb3;
     height: 2px;
@@ -25,13 +36,35 @@
     margin-left: auto;
 }
 
-#about .content{
+#about .content {
     padding: 15px;
     font-size: 1.5em;
     text-align: justify;
     line-height: 1.5;
 }
 
-#about .ab{
+#about .ab {
     padding: 15px;
+}
+
+@media(max-width:992px) {
+    #about .ab-img img {
+        width: 80%;
+    }
+}
+
+@media(max-width:576px){
+    #about {
+        margin: 0;
+        padding: 0;
+    }
+    #about .name h2 {
+        font-weight: 600;
+        font-size: large;
+    }
+    #about .content {
+        padding: 15px 0;
+        font-size: 1em;
+        text-align: justify;
+    }
 }

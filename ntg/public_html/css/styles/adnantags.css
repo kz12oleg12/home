@@ -3,22 +3,56 @@
     background: #1a7fb3;
     color: white;
     margin: 15px 0;
-    box-shadow: inset 0px 0px 10px 0px #0000007a;
+    box-shadow: inset 6px 6px 10px rgba(0, 0, 0, 0.18);
 }
+
 #advantags h1 {
     font-size: 2.5em;
     font-weight: 600;
     text-align: left;
     padding: 15px 0;
 }
-#advantags h2 span{
+
+#advantags h2 span {
     font-size: 1.5em;
     font-weight: 400;
 }
+
 #advantags h2 {
     text-align: center;
     padding: 15px 0;
 }
-#advantags .br-r{
+
+#advantags .br-r {
     border-right: 1px solid white;
+}
+.nav-servis button{
+    border: none;
+    background: transparent;
+
+}
+@media(max-width:1200px) {
+    #advantags h1 {
+        font-size: 2.1em;
+    }
+}
+
+@media(max-width:576px) {
+    #advantags h2  {
+        font-size: small;
+    }
+    #advantags .br-r {
+        border-right: none;
+    }
+    #advantags h1 {
+        text-align: center;
+        border-bottom: 1px solid white;
+    }
+    .card-name h3{
+        font-size: small;
+        text-align: center;
+    }
+    .card p{
+        font-size: smaller;
+    }
 }

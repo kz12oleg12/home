@@ -15,7 +15,6 @@
 
             <div class="col">
                 <div class="row">
-
                     <div class="col-6 ml-auto">
                         <div class="top-contact">
                             <div class="row">

@@ -40,7 +40,7 @@ footer .card ul li a {
 }
 
 footer .card ul li a:hover {
-   color: #d47a42;
+    color: #d47a42;
 }
 
 footer .name h2 {
@@ -50,4 +50,22 @@ footer .name h2 {
     text-align: left;
     font-family: 'Avante';
     font-weight: 900;
+}
+
+footer .card {
+    box-shadow: inset 6px 6px 10px rgba(0, 0, 0, 0.18);
+    padding: 15px;
+}
+
+
+@media(max-width:576px) {
+    footer {
+        height: auto;
+    }
+    footer .footer-fon {
+        height: 90%;
+    }
+    footer .name h2 {
+        font-size: large;
+    }
 }

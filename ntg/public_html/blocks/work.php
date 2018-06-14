@@ -3,10 +3,10 @@
 <section id="work">
     <div class="container-fluid">
         <div class="row no-gutters">
-            <div class="col">
+            <div class="col-12 col-lg wr-im">
                 <img src="/img/work.jpg" alt="" width="100%" height="100%">
             </div>
-            <div class="col">
+            <div class="col-12 col-lg">
                 <div class="work-fon"></div>
                 <div class="name">
                     <h3>Как мы работаем</h3>

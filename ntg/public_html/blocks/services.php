@@ -8,32 +8,40 @@
             <div class="ab-line"></div>
         </div>
         <div class="row">
-            <div class="col-6">
+            <div class="col-12 col-md-6 order-2 order-lg-1">
                 <ul class="nav-servis">
-                    <li>
-                        <a href="#sl_1">Грузоперевозки из стран СНГ в РК</a>
-                    </li>
-                    <li>
-                        <a href="#sl_2">Грузоперевозки из Европы в РК</a>
-                    </li>
-                    <li>
-                        <a href="#sl_3">Перевозка в температурном режиме</a>
-                    </li>
-                    <li>
-                        <a href="#sl_4">Перевозка личных вещей</a>
-                    </li>
-                    <li>
-                        <a href="#sl_5">Страхование грузов</a>
-                    </li>
-                    <li>
-                        <a href="#sl_6">Перевозка сборных грузов</a>
-                    </li>
-                    <li>
-                        <a href="#sl_7">СМС уведомление о статусе места нахождения Вашего груза</a>
-                    </li>
+                    <div class="row">
+                        <li class="menu d-md-none">
+                            <button>
+                                MENU
+                                <i class="icon ion-md-apps fa-3x"></i>
+                            </button>
+                        </li>
+                        <li>
+                            <a href="#sl_1">Грузоперевозки из стран СНГ в РК</a>
+                        </li>
+                        <li>
+                            <a href="#sl_2">Грузоперевозки из Европы в РК</a>
+                        </li>
+                        <li>
+                            <a href="#sl_3">Перевозка в температурном режиме</a>
+                        </li>
+                        <li>
+                            <a href="#sl_4">Перевозка личных вещей</a>
+                        </li>
+                        <li>
+                            <a href="#sl_5">Страхование грузов</a>
+                        </li>
+                        <li>
+                            <a href="#sl_6">Перевозка сборных грузов</a>
+                        </li>
+                        <li>
+                            <a href="#sl_7">СМС уведомление о статусе места нахождения Вашего груза</a>
+                        </li>
+                    </div>
                 </ul>
             </div>
-            <div class="col-6">
+            <div class="col-12 col-md-6 order-1 order-lg-2">
                 <div class="owl-carousel owl-theme">
                     <div class="item" data-hash="sl_1">
                         <div>

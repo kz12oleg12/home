@@ -7,7 +7,7 @@
             <div class="ab-line"></div>
         </div> -->
         <div class="row">
-            <div class="col">
+            <div class="col-12 col-lg order-2 order-lg-1">
                 <div class="feed">
                     <div class="name">
                         <h3>Услуги</h3>
@@ -16,29 +16,29 @@
                     </div>
                     <form action="">
                         <div class="row">
-                            <div class="col-6">
+                            <div class="col-12 col-md-6">
                                 <input type="text" placeholder="Ваше имя">
                             </div>
-                            <div class="col-6">
+                            <div class="col-12 col-md-6">
                                 <input type="text" placeholder="Телефон">
                             </div>
-                            <div class="col-6">
+                            <div class="col-12 col-md-6">
                                 <input type="text" placeholder="Пункт отправки">
                             </div>
-                            <div class="col-6">
+                            <div class="col-12 col-md-6">
                                 <input type="text" placeholder="Пункт назначения">
                             </div>
                             <div class="col-12">
                                 <textarea name="" id="" cols="30" rows="10" placeholder="Описание груза"></textarea>
                             </div>
-                            <div class="col-6 ml-auto">
+                            <div class="col-12 col-md-6 ml-auto">
                                 <input type="button" value="Отправить">
                             </div>
                         </div>
                     </form>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-12 col-lg order-1 order-lg-2">
                 <div class="name">
                     <h3>Часто задаваемые вопросы</h3>
                     <h2>Дополнительная информация</h2>

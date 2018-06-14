@@ -5,7 +5,7 @@
     <div class="container">
         <div class="card">
             <div class="row">
-                <div class="col-4">
+                <div class="col-12 col-md-4">
                     <ul>
                         <li class="name">
                             <h2>Контакты</h2>
@@ -28,7 +28,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-md-4">
                     <ul>
                         <li class="name">
                             <h2>Полезная инофрмация</h2>
@@ -60,7 +60,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-md-4">
                     <ul>
                         <li class="name">
                             <h2>Документы</h2>

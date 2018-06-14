@@ -2,8 +2,8 @@
 
 <section id="advantags">
     <div class="container">
-        <div class="row">
-            <div class="col br-r">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md br-r">
                 <div class="name">
                     <h1>Почему мы</h1>
                 </div>

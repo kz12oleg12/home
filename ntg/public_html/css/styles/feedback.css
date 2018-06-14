@@ -74,16 +74,17 @@
 
 #feedback input[type="button"]{
  border: none;
- color: white;
- background: #d47a42;
- border:1px solid #d47a42;
+ color: whitesmoke;
+ background: #f1af38;
+ border:1px solid #f1af38;
  text-transform: uppercase;
  cursor: pointer;
  font-family: 'Avante';
+ box-shadow: 3px 3px 5px 0px #00000054;
 }
 
 #feedback input[type="button"]:hover{
-    border:1px solid black;
+    box-shadow: 3px 3px 10px 0px #00000078;
 }
 
 #feedback .acc{
@@ -93,4 +94,10 @@
 #feedback .feed{
     box-shadow: 5px 5px 10px #00000047;
     padding: 15px;
+}
+
+@media(max-width:576px) {
+    #feedback .name h2 {
+        font-size: small;
+    }
 }

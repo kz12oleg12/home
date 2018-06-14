@@ -3,14 +3,15 @@
 <section id="about">
     <div class="container">
         <div class="row">
-            <div class="col-4">
-                <img src="/img/logoAb.png" alt="">
+            <div class="col-4 d-none d-md-block">
+                <div class="ab-img">
+                    <img src="/img/logoAb.png" alt="">
+                </div>
             </div>
             <div class="col">
                 <div class="ab">
                     <div class="name">
                         <h3>О компании</h3>
-                        <!-- <h2>Транспорно-экспедиционая компания</h2> -->
                         <h2>North trans group</h2>
                         <div class="ab-line"></div>
                     </div>

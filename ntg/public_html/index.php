@@ -42,14 +42,14 @@
 <body class="scroll">
 	<?php // in('ta'); ?>
 	<!-- TOP -->
-	<?php require_once("top/top.php"); ?>
+
 	<!-- HOME -->
 	<?php require_once("home/home.php"); ?>
 	<!-- BLOCKS -->
 	<?php require_once("blocks/about.php"); ?>
 	<?php require_once("blocks/advantags.php"); ?>
 	<?php require_once("blocks/services.php"); ?>
-	<?php require_once("blocks/work.php"); ?>
+
 	<!-- FEEDBACK -->
 	<?php require_once("feedback/feedback.php"); ?>
 	<!-- FOOTER -->

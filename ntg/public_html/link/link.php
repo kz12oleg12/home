@@ -1,7 +1,7 @@
 <style>
     #link{
         padding: 15px;
-        background: #1a7fb3;;
+        background: #126f9e;;
     }
 
     .footer-name h2 {

@@ -1,10 +1,14 @@
+#home {
+    position: relative;
+}
+
 .background {
     width: 100%;
     height: 100%;
     position: absolute;
     left: 0;
     top: 0;
-    background: gray url("/img/home.jpg") no-repeat top center;
+    background: gray url("/img/home.jpg") no-repeat fixed top center;
     background-size: cover;
     z-index: 0;
 }
@@ -31,39 +35,84 @@
     background: whitesmoke;
     font-weight: 600;
     margin: 15px 0;
+    font-size: small;
+    display: initial;
+    box-shadow: 5px 5px 10px #00000044;
 }
-.main-name h1{
-    font-weight: 800;
-    font-size: 2.1em;
-    line-height: 1.5;
+
+.main-name h1 {
+    font-weight: 600;
+    font-size: 2.5em;
+    line-height: 1.3;
     padding: 10px;
     margin: 15px 0;
-    letter-spacing: 4px;
 }
-.main-name button{
-    border: 1px solid #d47a42;
-    background: #d47a42;
-    color: white;
+
+.main-name button {
+    border: 1px solid #f1af38;
+    background: #f1af38;
+    color: whitesmoke;
     padding: 10px 15px;
     font-size: 1em;
     text-transform: uppercase;
     cursor: pointer;
     transition: ease, 0.5s;
     font-family: "Avante";
+    box-shadow: 3px 3px 5px 0px #00000054;
 }
-.main-name button:hover{
-    border: 1px solid white;
+
+.main-name button:hover {
+    box-shadow: 3px 3px 5px 0px #00000078;
 }
-@media (max-width:992px) {
-    .main-name {
-        padding: 15px;
-        background: #00000054;
-        width: 90%;
+
+@media(max-width:1200px) {
+    .main-name h1 {
+        font-size: 1.9em;
     }
 }
 
-@media (max-width:576px) {
-    .main-name h3 {
-        font-size: 14px;
+@media(max-width:992px) {
+    .background {
+        background: gray url("/img/home-mb.jpg") no-repeat top center;
+        background-size: cover;
     }
+    .main-name h1 {
+        font-size: 1.5em;
+        letter-spacing: 1px;
+    }
+    .main-name {
+        padding: 15px;
+        background: #1a7fb3;
+        width: 90%;
+    }
+    .main-name button {
+        display: block;
+        margin-left: auto;
+    }
+}
+
+@media(max-width:576px) {
+    #main {
+        align-items: flex-end;
+    }
+    .main-name {
+        width: 100%;
+    }
+    .main-name h3 {
+        margin: 0;
+        font-size: smaller;
+        display: block;
+    }
+    .main-name h1 {
+        font-size: 1em;
+    }
+    .main-name button {
+        display: block;
+        margin: auto;
+    }
+    /* .main-name {
+        padding: 15px;
+        background: #00000054;
+        width: 90%;
+    } */
 }
