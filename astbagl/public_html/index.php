@@ -41,12 +41,15 @@
 			font-family: 'Open Sans', sans-serif;
 			overflow: hidden;
 		}
-		
+
 		body.stop {
 			overflow: hidden;
 		}
-		@media (max-width:992px){
-			overflow: unset;
+
+		@media (max-width:992px) {
+			body {
+				overflow: inherit;
+			}
 		}
 	</style>
 </head>
@@ -54,7 +57,7 @@
 <body>
 	<?php // in('ta'); ?>
 	<!-- TOP -->
-	<header class="">
+	<header>
 		<div class="container">
 			<div class="row no-gutters">
 				<div class="col d-none d-md-block d-lg-block order-first">
@@ -171,20 +174,6 @@
 	<div class="bl-it">
 		<?php require_once("bl/bl_3.php"); ?>
 	</div>
-	<div class="bl-it">
-		<?php require_once("bl/bl_4.php"); ?>
-	</div>
-	<div class="bl-it">
-		<?php require_once("bl/bl_5.php"); ?>
-	</div>
-	<div class="bl-it">
-		<?php require_once("bl/bl_6.php"); ?>
-	</div>
-	<div class="bl-it">
-		<?php require_once("bl/bl_7.php"); ?>
-	</div>
-	<div class="bl-it">
-		<?php require_once("bl/bl_8.php"); ?>
 	</div>
 
 
@@ -195,7 +184,7 @@
 
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	/* <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> */
+
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
 	<script src="/modules/owlcarousel/owl.carousel.min.js"></script>
 	<script src="/js/resize.js"></script>

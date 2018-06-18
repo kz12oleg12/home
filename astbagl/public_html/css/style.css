@@ -51,13 +51,16 @@ a{
 
 @media(max-width:992px){
     .bl {
-        overflow: unset;
+        overflow: inherit;
         position: relative;
     }
     .main {
         position: relative;
         display: block;
         padding: 15px;
+    }
+    .fl-h{
+        display: block;
     }
 }
 

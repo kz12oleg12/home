@@ -10,10 +10,14 @@ if (width > 992) {
 
 $('.sml').addClass('animated zoomInRight');
 // BL_2
-var scene2 = document.getElementById('scene2');
-var parallaxInstance = new Parallax(scene2, {
-    relativeInput: true
-});
+var width = document.documentElement.clientWidth;
+if (width > 992) {
+
+    var scene2 = document.getElementById('scene2');
+    var parallaxInstance = new Parallax(scene2, {
+        relativeInput: true
+    });
+}
 // BL_3
 var scene3 = document.getElementById('scene3');
 var parallaxInstance = new Parallax(scene3, {
@@ -43,11 +47,11 @@ var waypoint = new Waypoint({
 });
 // TOP
 var waypoint = new Waypoint({
-    element: document.getElementById('bl_1'),
+    element: document.getElementById('bl_2'),
     handler: function (direction) {
         $('header').toggleClass('active');
         // alert('asdasd')
-    }, offset: '-50%'
+    }, offset: '0'
 });
 
 

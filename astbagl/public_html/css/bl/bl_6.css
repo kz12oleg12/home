@@ -121,5 +121,6 @@
     z-index: 10;
     opacity: 1;
     width: 50%;
+    box-shadow:15px 15px 10px rgba(0, 0, 0, 0.426);
 }
 /* .video-joik */
