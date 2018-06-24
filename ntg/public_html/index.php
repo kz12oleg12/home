@@ -15,6 +15,9 @@
 	<link rel="stylesheet" href="/css/bootstrap-grid.min.css">
 	<link rel="stylesheet" href="/css/index.css">
 	<link rel="stylesheet" href="/css/animate.css">
+	<link rel="stylesheet" href="/modules/owlcarousel/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="/modules/owlcarousel/assets/owl.theme.default.min.css">
+	<link rel="stylesheet" href="/modules/custom-scrollbar/jquery.mCustomScrollbar.min.css">
 
 	<!-- ICON FONT -->
 	<link href="/modules/font-awesome/css/font-awesome.css" rel="stylesheet">
@@ -25,11 +28,11 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=cyrillic,cyrillic-ext,latin-ext,vietnamese" rel="stylesheet">
 
 	<!-- JS -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script src="/modules/owlcarousel/owl.carousel.min.js"></script>
-	<link rel="stylesheet" href="/modules/owlcarousel/assets/owl.carousel.min.css">
-	<link rel="stylesheet" href="/modules/owlcarousel/assets/owl.theme.default.min.css">
+	<script src="/js/jquery.waypoints.min.js"></script>
+	<script src="/modules/custom-scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
 	<script src="/js/resize.js"></script>
 	<script src="/js/index.js"></script>
 
@@ -42,7 +45,7 @@
 <body class="scroll">
 	<?php // in('ta'); ?>
 	<!-- TOP -->
-
+	<?php require_once("top/top.php"); ?>
 	<!-- HOME -->
 	<?php require_once("home/home.php"); ?>
 	<!-- BLOCKS -->
@@ -56,7 +59,7 @@
 	<?php require_once("footer/footer.php"); ?>
 	<!-- LINK -->
 	<?php require_once("link/link.php"); ?>
-	<div class="jolk"></div>
+	
 
 
 

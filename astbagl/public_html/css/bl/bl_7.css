@@ -70,12 +70,13 @@
 
 #bl_7 form textarea {
     background: #dce3ed;
-    border-radius: 35px;
+    border-radius: 20px;
     width: 100%;
     height: 100%;
     padding: 15px;
     font-size: 1.2em;
     margin: 15px 0;
+    border: none;
 }
 
 #bl_7 form input[type="button"] {
@@ -106,4 +107,20 @@
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
     color: #ee1a30;
+}
+
+@media (max-width:992px){
+    #bl_7 {
+        color: #072146;
+        text-align: center;
+        padding: 15px 0;
+        background: transparent;
+    }
+    #bl_7 .name h2{
+        color: #072146;
+        font-size: x-large;
+    }
+    #bl_7 form input[type="button"] {
+        margin: 15px 0;
+    }
 }

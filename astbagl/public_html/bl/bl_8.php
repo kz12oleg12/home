@@ -1,11 +1,11 @@
 <link rel="stylesheet" href="/css/bl/bl_8.css">
 
 <section id="bl_8" class="bl">
-    <div class="cont" ">
+    <div class="cont">
         <div class="footer-up ">
             <div class="container ">
                 <div class="row justify-content-center ">
-                    <div class="col-3 ">
+                    <div class="col-6 col-md-3  ">
                         <ul>
                             <li class="lk ">
                                 <i class="icon ion-md-remove fa-lg "></i>
@@ -32,7 +32,7 @@
                             </li> 
                         </ul> 
                     </div>
-                    <div class="col-3 ">
+                    <div class="col-6 col-md-3  ">
                         <ul>
                             <li class="lk ">
                                 <i class="icon ion-md-remove fa-lg "></i>
@@ -59,7 +59,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-3 ">
+                    <div class="col-6 col-md-3  ">
                         <ul>
                             <li class="lk ">
                                 <i class="icon ion-md-remove fa-lg "></i>
@@ -86,7 +86,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-3 ">
+                    <div class="col-6 col-md-3  ">
                         <ul>
                             <li class="lk ">
                                 <i class="icon ion-md-remove fa-lg "></i>
@@ -120,7 +120,7 @@
         <div class="footer-dw ">
             <div class="container ">
                 <div class="row justify-content-center ">
-                    <div class="col-4 ">
+                    <div class="col-12 col-md-4 d-none d-lg-block">
                         <div class="dw-it ">
                             <div class="dw-line "></div>
                             <ul>
@@ -154,7 +154,7 @@
                         </ul>
                         </div>
                     </div>
-                    <div class="col-4 ">
+                    <div class="col-12 col-md-6 col-lg-4 ">
                         <div class="dw-it ">
                             <div class="dw-line "></div>
                         <ul>
@@ -204,7 +204,7 @@
                         </ul>
                     </div>
                     </div>
-                    <div class="col-4 ">
+                    <div class="col-12 col-md-6 col-lg-4 ">
                         <div class="dw-it ">
                             <div class="dw-line "></div>
                             <ul>
@@ -257,6 +257,27 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="footer-soc">
+            <ul>
+                <li>
+                    <a href="#">
+                        Whatsapp
+                    </a>
+                </li>
+                <li class="qr"></li>
+                <li>
+                    <a href="#">
+                        Telegram
+                    </a>
+                </li>
+                <li class="qr"></li>
+                <li>
+                    <a href="#">
+                        Viber
+                    </a>
+                </li>
+            </ul>
         </div>
     </div>
     

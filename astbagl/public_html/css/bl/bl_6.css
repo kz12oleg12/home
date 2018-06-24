@@ -124,3 +124,27 @@
     box-shadow:15px 15px 10px rgba(0, 0, 0, 0.426);
 }
 /* .video-joik */
+
+@media(max-width:992px){
+    #bl_6 .name{
+    text-align: center;  
+    }
+    #bl_6 .name h2,#bl_6 .name h3{
+        font-size: x-large;
+    }
+    #bl_6 .text{
+        text-align: justify;
+    }
+    .bl-video div{
+        width: 100%;
+        padding: 15px;
+    }
+    #bl_6 .bl-video button {
+        padding: 20px 25px;
+        margin: 15px;
+    }
+
+   #video.active{
+       width: 95%;
+   }
+}

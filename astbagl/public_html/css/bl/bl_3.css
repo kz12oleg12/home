@@ -99,3 +99,13 @@
 #bl_3 .bl_3_it a.link_4::after {
     content: "Менеджмент ВС"
 }
+
+@media (max-width:992px){
+    #bl_3{
+        display: none;
+    }
+    #bl_2 .bl_2_cont {
+        width: 100%;
+        padding: 15px 0;
+    }
+}

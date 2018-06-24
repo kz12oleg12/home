@@ -38,7 +38,7 @@ var waypoint = new Waypoint({
     }, offset: '30%'
 });
 // $('#bl_5 .gerl').addClass('animated slideInLeft');
-// BL_5
+// BL_7
 var waypoint = new Waypoint({
     element: document.getElementById('bl_7'),
     handler: function (direction) {
@@ -54,8 +54,7 @@ var waypoint = new Waypoint({
     }, offset: '0'
 });
 
-
-
+// BL_6
 $('#play').click(function () {
     $('#video').addClass('active');
     $('.jolk').addClass('active');

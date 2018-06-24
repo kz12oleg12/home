@@ -1,0 +1,82 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    /* overflow-y: scroll; */
+}
+
+body.stop {
+    overflow: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+}
+
+h1, h2 {
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.mr-auto {
+    margin-right: auto;
+}
+
+.mt-auto {
+    margin-top: auto;
+}
+
+.mb-auto {
+    margin-bottom: auto;
+}
+
+.fl{
+    display: flex;
+}
+
+.jolk {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    /* transform: translateX(100vw);
+    transition: ease, 0.1s; */
+    display: none;
+    z-index: -1;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.jolk.active {
+    opacity: 0.5;
+    z-index: 0;
+    /* transition: ease, 0.01s;
+    transform: translateX(0vw); */
+    display: block;
+}
+
+
+section.bl{
+    /* background: lightgray; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 5px solid white;
+}
+.lin{
+    height: 50%;
+    width: 2px;
+    background: black;
+}
+
+.name{
+    text-align: center;
+}

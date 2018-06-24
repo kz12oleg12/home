@@ -3,7 +3,7 @@
 <section id="bl_6" class="bl">
     <div class="container">
         <div class="row">
-            <div class="col-10">
+            <div class="col-12 col-lg-8">
                 <div class="name">
                     <h2>О компании</h2>
                     <h3>Персональные авиарейсы в любую точку мира</h3>
@@ -15,12 +15,12 @@
                     круглосуточный контроль за всеми этапами перелета. Мы ценим наших клиентов, поэтому всегда предлагаем
                     самые выгодные условия и максимально низкие цены.
                 </div>
-                <button>Побробнее</button>
+                <button class="d-none d-lg-block">Побробнее</button>
             </div>
-            <div class="col-2">
+            <div class="col-12 col-lg">
                 <div class="bl-video">
                     <div>
-                        <label for="">
+                        <label for="" class="d-none d-lg-block">
                             Смотреть видео
                         </label>
                         <button onclick="playPause()" id="play">
@@ -54,46 +54,7 @@
         }
     };
 </script>
-<!-- <script>
-    var videoElem = document.getElementById('video');
-    var playElem = document.getElementById('play');
-    var pauseElem = document.getElementById('pause');
 
-    function isFullScreen() {
-        return !!(document.fullScreen ||
-            document.webkitIsFullScreen ||
-            document.mozFullScreen ||
-            document.msFullscreenElement ||
-            document.fullscreenElement);
-    }
-
-    function handleFullScreen() {
-        if (isFullScreen()) {
-            if (document.exitFullscreen) document.exitFullscreen();
-            else if (document.mozCancelFullScreen) document.mozCancelFullScreen();
-            else if (document.webkitCancelFullScreen) document.webkitCancelFullScreen();
-            else if (document.msExitFullscreen) document.msExitFullscreen();
-        } else {
-            if (videoElem.requestFullscreen) videoElem.requestFullscreen();
-            else if (videoElem.mozRequestFullScreen) videoElem.mozRequestFullScreen();
-            else if (videoElem.webkitRequestFullScreen) videoElem.webkitRequestFullScreen();
-            else if (videoElem.msRequestFullscreen) videoElem.msRequestFullscreen();
-        }
-    }
-
-    playElem.onclick = function () {
-        if (videoElem.paused) {
-            handleFullScreen();
-            videoElem.play();
-        }
-    };
-
-    pauseElem.onclick = function () {
-        if (videoElem.played) {
-            videoElem.pause();
-        }
-    };
-</script> -->
 <script>
     var N = 2000; // 5 секунд
 
@@ -103,15 +64,15 @@
 
 </script>
 
-<!-- <script>
-    $('.play').click(function () {
-        $('#video').addClass('active'); 
+<script>
+    $('#play').click(function () {
+        $('#video').addClass('active');
         $('.jolk').addClass('active');
-         $('body').addClass('stop');
-    }); 
-    $('.video-cl').click(function () {
-        $('#video').removeClass('active'); 
-        $('.jolk').removeClass('active'); 
+        $('body').addClass('stop');
+    });
+    $('.jolk').click(function () {
+        $('#video').removeClass('active');
+        $('.jolk').removeClass('active');
         $('body').removeClass('stop');
     });
-</script> -->
+</script>

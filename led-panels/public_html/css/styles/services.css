@@ -1,0 +1,47 @@
+#services img {
+    width: 100%;
+    padding: 15px;
+}
+
+#services .name {
+    font-size: 1.5em;
+    padding: 15px;
+}
+
+#services .name.al-r {
+    text-align: right;
+}
+
+#services .name.al-l {
+    text-align: left;
+}
+
+#services .content {
+    padding: 15px;
+}
+
+#services .content p {
+    font-size: 1.5em;
+    line-height: 1.5;
+    text-align: justify;
+    padding: 15px;
+    /* font-weight: 900; */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#services .item {
+    padding: 15px;
+}
+
+@media(max-width:992px) {
+    #services .content p {
+        font-size: 1em;
+    }
+    #services .name {
+        font-size: 1em;
+    }
+    #services .name.al-r,#services .name.al-l {
+        text-align: left;
+    }
+    
+}

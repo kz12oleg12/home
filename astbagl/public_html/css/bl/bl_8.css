@@ -53,3 +53,25 @@
     font-weight: 600;
     font-size: 20px;
 }
+.footer-soc {
+    background: #041c40;
+    padding: 15px 0;
+}
+.footer-soc ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+#bl_8  .footer-soc ul li a{
+    padding: 10px;
+    color: white;
+}
+#bl_8  .footer-soc ul li a:hover{
+    color: red;
+}
+#bl_8  .footer-soc ul li.qr{
+    width: 5px;
+    height: 5px;
+    background: red;
+    margin: 10px 5px;
+}

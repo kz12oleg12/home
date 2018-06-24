@@ -25,7 +25,15 @@
     color: rgb(216, 3, 3);
 }
 
-#bl_5 .pr-it{
-    padding: 25px;
-}
 
+@media(max-width:992px){
+    #bl_5 .name h2 {
+        font-size: x-large;
+        color: #051f44;
+        text-align: center;
+        padding: 15px;
+    }
+    #bl_5 {
+        background: transparent;       
+    }
+}

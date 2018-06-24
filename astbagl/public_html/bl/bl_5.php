@@ -5,114 +5,114 @@
     <div class="bl-5-cont">
         <div class="container">
             <div class="row no-gutters justify-content-end">
-                <div class="col-8">
+                <div class="col-12 col-lg-8">
                     <div class="name">
                         <h2>Наши партнеры
                             <i class="icon ion-ios-remove fa-lg"></i>
                         </h2>
                     </div>
                 </div>
-                <div class="col-7">
+                <div class="col-12 col-lg-7">
                     <div class="part">
                         <div class="row">
-                            <div class="col-6">
+                            <div class=" col-6 col-md-4">
                                 <div class="pr-it">
-                                    <img src="/img/part/1.png" alt="" width="100%">
+                                    <img src="/img/part/2.png" alt="" width="100%">
                                 </div>
                             </div>
-                            <div class="col-6">
+                            <div class=" col-6 col-md-4">
                                 <div class="pr-it">
-                                    <img src="/img/part/1.png" alt="" width="100%">
+                                    <img src="/img/part/2.png" alt="" width="100%">
                                 </div>
                             </div>
-                            <div class="col-6">
+                            <div class=" col-6 col-md-4">
                                 <div class="pr-it">
-                                    <img src="/img/part/1.png" alt="" width="100%">
+                                    <img src="/img/part/2.png" alt="" width="100%">
                                 </div>
                             </div>
-                            <div class="col-6">
+                            <div class=" col-6 col-md-4">
                                 <div class="pr-it">
-                                    <img src="/img/part/1.png" alt="" width="100%">
+                                    <img src="/img/part/2.png" alt="" width="100%">
                                 </div>
                             </div>
-                            <div class="col-6">
+                            <div class=" col-6 col-md-4">
                                 <div class="pr-it">
-                                    <img src="/img/part/1.png" alt="" width="100%">
+                                    <img src="/img/part/2.png" alt="" width="100%">
                                 </div>
                             </div>
-                            <div class="col-6">
+                            <div class=" col-6 col-md-4">
                                 <div class="pr-it">
-                                    <img src="/img/part/1.png" alt="" width="100%">
+                                    <img src="/img/part/2.png" alt="" width="100%">
                                 </div>
                             </div>
-                            <div class="col-6">
+                            <div class=" col-6 col-md-4">
                                 <div class="pr-it">
-                                    <img src="/img/part/1.png" alt="" width="100%">
+                                    <img src="/img/part/2.png" alt="" width="100%">
                                 </div>
                             </div>
-                            <div class="col-6">
+                            <div class=" col-6 col-md-4">
                                 <div class="pr-it">
-                                    <img src="/img/part/1.png" alt="" width="100%">
+                                    <img src="/img/part/2.png" alt="" width="100%">
                                 </div>
                             </div>
-                            <div class="col-6">
+                            <div class=" col-6 col-md-4">
                                 <div class="pr-it">
-                                    <img src="/img/part/1.png" alt="" width="100%">
+                                    <img src="/img/part/2.png" alt="" width="100%">
                                 </div>
                             </div>
-                            <div class="col-6">
+                            <div class=" col-6 col-md-4">
                                 <div class="pr-it">
-                                    <img src="/img/part/1.png" alt="" width="100%">
+                                    <img src="/img/part/2.png" alt="" width="100%">
                                 </div>
                             </div>
-                            <div class="col-6">
+                            <div class=" col-6 col-md-4">
                                 <div class="pr-it">
-                                    <img src="/img/part/1.png" alt="" width="100%">
+                                    <img src="/img/part/2.png" alt="" width="100%">
                                 </div>
                             </div>
-                            <div class="col-6">
+                            <div class=" col-6 col-md-4">
                                 <div class="pr-it">
-                                    <img src="/img/part/1.png" alt="" width="100%">
+                                    <img src="/img/part/2.png" alt="" width="100%">
                                 </div>
                             </div>
-                            <div class="col-6">
+                            <div class=" col-6 col-md-4">
                                 <div class="pr-it">
-                                    <img src="/img/part/1.png" alt="" width="100%">
+                                    <img src="/img/part/2.png" alt="" width="100%">
                                 </div>
                             </div>
-                            <div class="col-6">
+                            <div class=" col-6 col-md-4">
                                 <div class="pr-it">
-                                    <img src="/img/part/1.png" alt="" width="100%">
+                                    <img src="/img/part/2.png" alt="" width="100%">
                                 </div>
                             </div>
-                            <div class="col-6">
+                            <div class=" col-6 col-md-4">
                                 <div class="pr-it">
-                                    <img src="/img/part/1.png" alt="" width="100%">
+                                    <img src="/img/part/2.png" alt="" width="100%">
                                 </div>
                             </div>
-                            <div class="col-6">
+                            <div class=" col-6 col-md-4">
                                 <div class="pr-it">
-                                    <img src="/img/part/1.png" alt="" width="100%">
+                                    <img src="/img/part/2.png" alt="" width="100%">
                                 </div>
                             </div>
-                            <div class="col-6">
+                            <div class=" col-6 col-md-4">
                                 <div class="pr-it">
-                                    <img src="/img/part/1.png" alt="" width="100%">
+                                    <img src="/img/part/2.png" alt="" width="100%">
                                 </div>
                             </div>
-                            <div class="col-6">
+                            <div class=" col-6 col-md-4">
                                 <div class="pr-it">
-                                    <img src="/img/part/1.png" alt="" width="100%">
+                                    <img src="/img/part/2.png" alt="" width="100%">
                                 </div>
                             </div>
-                            <div class="col-6">
+                            <div class=" col-6 col-md-4">
                                 <div class="pr-it">
-                                    <img src="/img/part/1.png" alt="" width="100%">
+                                    <img src="/img/part/2.png" alt="" width="100%">
                                 </div>
                             </div>
-                            <div class="col-6">
+                            <div class=" col-6 col-md-4">
                                 <div class="pr-it">
-                                    <img src="/img/part/1.png" alt="" width="100%">
+                                    <img src="/img/part/2.png" alt="" width="100%">
                                 </div>
                             </div>
                         </div>

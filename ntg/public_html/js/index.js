@@ -17,8 +17,8 @@ $(document).ready(function () {
     // HEADER
 
     var menu = new $('.nav-list'),
-        menu_open = new $('.nav-btn'),
-        menu_close = new $('.nav-btn-close'),
+        menu_open = new $('.menu_btn'),
+        menu_close = new $('.menu_close'),
         jolk = new $('.jolk'),
         body = new $('body')
 
@@ -38,6 +38,15 @@ $(document).ready(function () {
         body.removeClass('stop');
     });
 
+    var waypoint = new Waypoint({
+        element: document.getElementById('main'),
+        handler: function (direction) {
+            $('.div-nav').toggleClass('active');
+        }
+    })
+
+
+      
 
     // SERVICES
 

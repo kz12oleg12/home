@@ -17,6 +17,7 @@ header {
     transition: 1s;
     /* background: #041c40; */
     background-color: transparent;
+   
 }
 
 .brand {
@@ -162,6 +163,7 @@ header {
 header.active {
     background: white;
     transition: 0.3s;
+    box-shadow: 0 0 10px #0003;
 }
 
 /* language */

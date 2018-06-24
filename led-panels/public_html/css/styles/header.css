@@ -1,0 +1,176 @@
+@font-face {
+    /* // название шрифта(чтобы не запутаться лучше указать название папки со шрифтом)  */
+    font-family: "Av-l"; /* адрес шрифта и тип */
+    src: url("/font/a_AvanteTitlerCpsLC-Light_1327.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    /* // название шрифта(чтобы не запутаться лучше указать название папки со шрифтом)  */
+    font-family: "Av-li"; /* адрес шрифта и тип */
+    src: url("/font/a_AvanteTitlerCpsLC-LightItalic_1328.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    /* // название шрифта(чтобы не запутаться лучше указать название папки со шрифтом)  */
+    font-family: "Av-b"; /* адрес шрифта и тип */
+    src: url("/font/a_AvanteTitlerCpsLC-Bold_1325.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    /* // название шрифта(чтобы не запутаться лучше указать название папки со шрифтом)  */
+    font-family: "Av-bi"; /* адрес шрифта и тип */
+    src: url("/font/a_AvanteTitlerCpsLC-BoldItalic_1326.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.344); */
+    /* background: white; */
+    z-index: 10;
+}
+.top{
+    transition:ease, 0.8s;
+}
+.top.active{
+    background: #132150;
+    box-shadow: 0 0px 10px #000000d4;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+nav .nav-list {
+    display: flex;
+    list-style: none;
+}
+
+nav .nav-list li a {
+    padding: 15px 0;
+    color: white;
+    font-size: large;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+nav .nav-list li a:hover {
+    border-bottom: 1px solid white;
+}
+
+nav .nav-list li.item {
+    padding: 15px;
+}
+
+.brand h1 {
+    padding: 15px;
+    font-size: xx-large;
+    color: white;
+    font-family: "Av-l";
+    text-transform: uppercase;
+}
+.nav-btn{
+    color: white;
+}
+.nav-btn, .nav-btn-close {
+    border: none;
+    background: transparent;
+    font-size: larger;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.nav-btn-close {
+    font-size: 1.9em;
+    padding: 0;
+}
+
+nav{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+nav .nav-list li.item-close {
+    padding: 15px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    justify-content: flex-end;
+    border-bottom: 1px solid;
+}
+
+.pnel {
+    background: black;
+    padding: 15px;
+}
+
+.pnel ul {
+    display: flex;
+    list-style: none;
+}
+
+.pnel ul li a {
+    padding: 10px 15px;
+    color: white;
+}
+
+.pnel ul li a i {
+    margin-right: 5px;
+}
+
+.pnel ul li a:hover {
+    text-decoration: underline;
+}
+
+@media(max-width:992px) {
+    nav .nav-list {
+        position: fixed;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 300px;
+        background: white;
+        padding: 0 15px;
+        z-index: 10;
+        display: block;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.344);
+        transform: translateX(100vw);
+        transition: ease-in, 1s;
+    }
+    nav .nav-list.active {
+        transform: translateX(0vw);
+    }
+    nav .nav-list li.item {
+        border-bottom: 1px solid rgb(199, 199, 199);
+        padding: 15px 0;
+    }
+    nav .nav-list li.item.end {
+        border-bottom: none;
+    }
+    nav .nav-list li a {
+        color: black;
+    }
+    nav .nav-list li a:hover {
+        border-bottom: 1px solid transparent;
+    }
+    .brand h1 {
+        font-size: large;
+    }
+    .nav-btn{
+        font-size: small;
+    }
+}
+
+@media(max-width:576px) {
+    nav .nav-list {
+        width: 100%;
+        left: 0;
+    }
+}

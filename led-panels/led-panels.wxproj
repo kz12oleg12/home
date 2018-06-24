@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<winginx>
+  <project>
+    <name>led-panels</name>
+    <url>http://led-panels/</url>
+    <root>home/led-panels</root>
+  </project>
+</winginx>

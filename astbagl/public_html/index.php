@@ -165,6 +165,7 @@
 	</header>
 
 	<?php require_once("top/nav.php"); ?>
+
 	<div class="bl-it">
 		<?php require_once("bl/bl_1.php"); ?>
 	</div>
@@ -174,12 +175,21 @@
 	<div class="bl-it">
 		<?php require_once("bl/bl_3.php"); ?>
 	</div>
+	<div class="bl-it">
+		<?php require_once("bl/bl_4.php"); ?>
 	</div>
-
-
-
-
-
+	<div class="bl-it">
+		<?php require_once("bl/bl_5.php"); ?>
+	</div>
+	<div class="bl-it">
+		<?php require_once("bl/bl_6.php"); ?>
+	</div>
+	<div class="bl-it">
+		<?php require_once("bl/bl_7.php"); ?>
+	</div>
+	<div class="bl-it">
+		<?php require_once("bl/bl_8.php"); ?>
+	</div>
 
 
 
@@ -219,6 +229,11 @@
 			$('.jolk').removeClass('active');
 			$('body').removeClass('stop');
 		});
+		$('.navbar .navbar-list li a').click(function () {
+			$('.navbar-list').removeClass('active');
+			$('.jolk').removeClass('active');
+			$('body').removeClass('stop');
+		}); 
 	</script>
 	<script>
 		$(document).ready(function () {
