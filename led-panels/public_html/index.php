@@ -20,6 +20,7 @@
 	<!-- ICON FONT -->
 	<link href="/modules/font-awesome/css/font-awesome.css" rel="stylesheet">
 	<link href="https://unpkg.com/ionicons@4.1.1/dist/css/ionicons.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 	<!-- FONT -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=cyrillic,cyrillic-ext,latin-ext,vietnamese" rel="stylesheet">
@@ -44,8 +45,8 @@
 	<!-- HOME -->
 	<?php require_once("home/home.php"); ?>
 	<!-- BLOKS -->
-	<?php require_once("blocks/advantags.php"); ?>
 	<?php require_once("blocks/about.php"); ?>
+	<?php require_once("blocks/advantags.php"); ?>
 	<?php require_once("blocks/services.php"); ?>
 	<!-- FEEDBACK -->
 	<?php require_once("feedback/feedback.php"); ?>

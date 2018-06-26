@@ -1,56 +1,60 @@
 <link rel="stylesheet" href="/css/styles/advantags.css">
 
-<section id="advantags">
+<section id="advantags" class="pd">
+    <div class="ad-lin"></div>
     <div class="container">
+        <div class="ad-name">
+            <h2>Led panels - в цыфрах</h2>
+            <h3>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.</h3>
+        </div>
         <div class="row">
-            <div class="col-12 col-lg">
+            <div class="col-2">
                 <div class="item">
-                    <div class="name">
-                        <h2>Почему мы</h2>
-                    </div>
+                    <span>
+                        <img src="/img/ico/1.png" alt="">
+                        <p>7 квалифицированных специалистов</p>
+                    </span>
                 </div>
             </div>
-
-            <div class="col-auto d-none d-lg-block">
+            <div class="col-2">
                 <div class="item">
-                    <div class="lin"></div>
+                    <span>
+                        <img src="/img/ico/2.png" alt="">
+                        <p>7 квалифицированных специалистов</p>
+                    </span>
                 </div>
             </div>
-
-            <div class="col-12  col-md col-lg">
+            <div class="col-2">
                 <div class="item">
-                    <div class="name">
-                        <h2>7</h2>
-                    </div>
-                    <h3>лет опыта</h3>
+                    <span>
+                        <img src="/img/ico/3.png" alt="">
+                        <p>7 квалифицированных специалистов</p>
+                    </span>
                 </div>
             </div>
-
-            <div class="col-auto d-none d-md-block d-lg-block">
+            <div class="col-2">
                 <div class="item">
-                    <div class="lin"></div>
+                    <span>
+                        <img src="/img/ico/4.png" alt="">
+                        <p>7 квалифицированных специалистов</p>
+                    </span>
                 </div>
             </div>
-
-            <div class="col-12  col-md col-lg">
+            <div class="col-2">
                 <div class="item">
-                    <i class="icon ion-md-apps fa-lg"></i>
-                    <h3>Большой выбор</h3>
+                    <span>
+                        <img src="/img/ico/5.png" alt="">
+                        <p>7 квалифицированных специалистов</p>
+                    </span>
                 </div>
             </div>
-
-            <div class="col-auto d-none d-md-block d-lg-block">
+            <div class="col-2">
                 <div class="item">
-                    <div class="lin"></div>
-                </div>
-            </div>
-
-            <div class="col-12  col-md col-lg">
-                <div class="item">
-                    <i class="icon ion-md-settings fa-lg"></i>
-                    <h3>установка за <span>1</span> день</h3>
+                    <span>
+                        <img src="/img/ico/6.png" alt="">
+                        <p>7 квалифицированных специалистов</p>
+                    </span>
                 </div>
             </div>
         </div>
-    </div>
 </section>
