@@ -1,0 +1,38 @@
+#prich .prich-name {
+    padding: 15px 0;
+}
+
+#prich .prich-name h2, #prich .prich-name h3 {
+    margin-bottom: 10px;
+}
+
+#prich .prich-name h2 {
+    font-size: xx-large;
+    font-weight: 600;
+    color: #eaaf2f;
+}
+
+#prich .prich-name h3 {
+    text-transform: none;
+}
+
+#prich .item {
+    box-shadow: 5px 5px 10px #e4e4e4;
+    padding: 15px;
+}
+
+#prich .content{
+    list-style: none;
+
+}
+#prich .content li{
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+#prich .content li span{
+    font-size: xx-large;
+    font-weight: 600;
+    color: #eaaf2f;
+    margin-right:15px;
+}
