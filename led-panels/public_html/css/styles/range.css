@@ -1,0 +1,226 @@
+#range{
+    background: #eee;
+}
+#range .item{
+    text-align: center;
+    padding: 15px;
+    background: white;
+    box-shadow: 5px 5px 10px #cccccc;
+    margin: 15px 0;
+    transition: 1s;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+
+.range-name{
+    margin: 15px 0;
+}
+.range-name h2,h3{
+    margin-bottom: 5px;
+}
+.range-name h2{
+    font-size: xx-large;
+    font-weight: 600;
+    color: #484848;
+}
+.range-name h3{
+   text-transform: none;
+}
+#range .item .content{
+    padding: 15px 0;
+}
+#range .item .content .cont-name{
+    border-bottom: 1px solid #eee;
+    margin-bottom: 10px;
+}
+#range .item .content ul{
+    text-align: left;
+    list-style: none;
+}
+#range .item .content ul li{
+    margin-bottom: 5px;
+}
+
+.rg-img img {
+    width: 70%;
+    height: 100%;
+}
+.rg-img {
+    height: 225px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.range-btn button{
+    padding: 10px 15px;
+    margin: 15px auto;
+    display: block;
+    border: none;
+    background: #eaaf2f;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+}
+.range-btn button:hover{
+    /* box-shadow: 0 0 10px #aeaeae; */
+    background: #f9ba34;
+}
+
+#range .item:hover:before {
+    content: '+';
+    position: absolute;
+    background: #eaaf2fe0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 100px;
+    text-shadow: 5px 5px 0px #545454;
+    transition: 1s;
+    border: 4px solid #ffffff;
+    z-index: 1;
+}
+
+#range .item:hover {
+    box-shadow: 5px 5px 10px #a2a0a0;
+}
+#range .item img{
+    transition: 1s
+}
+#range .item:hover img{
+   transform: scale(1.1)
+}
+
+/* PupUP */
+.pupup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    z-index: -1;
+    opacity: 0;
+}
+.pupup .pupup_baground{
+    background: #484848d5;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.pupup.active{
+    z-index: 1000;
+    opacity: 1;
+}
+.pupup .card{
+    background: white;
+    padding-top: 15px;
+    max-width: 50%;
+    box-shadow: 0px 0px 55px 0px #00000047;
+    border-radius: 5px;
+}
+.pupup .card .content{
+    padding: 15px;
+}
+.pupup .card .cont-name{
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+.pupup .card .cont-name h3{
+    font-weight: 600;
+    margin: 0;
+}
+.pupup .card .pupup-close{
+    margin-left: auto;
+    border: none;
+    background: transparent;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+.pupup .card .pupup-close:hover{
+    transform: scale(1.1) rotate(360deg);
+}
+.pupup .card p {
+    padding: 5px 0;
+    margin-bottom: 15px;
+    font-weight: 300;
+    line-height: 1.5;
+    font-size: small;
+    border-bottom: 1px solid lightgray;
+}
+.pupup .card ul li{
+    margin: 5px 0;
+    font-size: small;
+}
+.pupup .card ul{
+    /* margin-left: 15px; */
+    list-style: none;
+}
+.pupup .card ul li::before{
+    content: "-";
+    font-weight: 700;
+    margin-right: 5px;
+    font-size: x-small;
+}
+.pupup .card ul li span{
+    font-weight: 500;
+    margin-right: 5px;
+}
+.pup-feedback {
+    padding: 15px;
+    background: #eee;
+    margin-top: 15px;
+    box-shadow: inset 0px 1px 10px #0000001c;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.pup-feedback form input[type="text"]{
+    width: 100%;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+    background: transparent;
+    border: transparent;
+    border-bottom: 1px solid #c7c7c7;
+}
+
+.pup-feedback form input[type="button"]{
+    margin: 10px auto;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    border: none;
+    color: #717171;
+    background: #ffffff;
+    box-shadow: 5px 5px 10px #c5c5c582;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.pup-feedback form input[type="button"]:hover{
+    box-shadow: 5px 5px 15px #9b9b9b85;
+}
+
+.pupup .card .card-img{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pupup .card .card-img img{
+    width: 75%;
+}
