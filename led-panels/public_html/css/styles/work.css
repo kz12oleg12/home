@@ -1,0 +1,45 @@
+#work .work-name {
+    padding: 15px 0;
+    transform: translateX(-300vw);
+}
+
+#work .work-name h2, #work .work-name h3 {
+    margin-bottom: 10px;
+}
+
+#work .work-name h2 {
+    font-size: xx-large;
+    font-weight: 600;
+    color: #eaaf2f;
+}
+
+#work .work-name h3 {
+    text-transform: none;
+}
+
+#work .item{
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 15px;
+    text-align: center;
+}
+#work .wr-line{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+#work .wr-line .ln{
+    width: 20px;
+    height: 1.5px;
+    background: darkgray;
+}
+#work .item span{
+    font-weight: 600;
+    font-size: large;
+    margin-right: 10px;
+    color: #6c6c6c;
+}
+#work .item h3{
+    font-size: larger;
+    text-transform: none;
+}

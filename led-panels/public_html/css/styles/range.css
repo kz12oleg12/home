@@ -1,7 +1,8 @@
-#range{
+#range {
     background: #eee;
 }
-#range .item{
+
+#range .item {
     text-align: center;
     padding: 15px;
     background: white;
@@ -11,65 +12,102 @@
     overflow: hidden;
     position: relative;
     cursor: pointer;
+    height: 400px;
 }
 
-.range-name{
+.range-name {
     margin: 15px 0;
+    transform: translateX(-300vw);
 }
-.range-name h2,h3{
+
+.range-name h2, h3 {
     margin-bottom: 5px;
 }
-.range-name h2{
+
+.range-name h2 {
     font-size: xx-large;
     font-weight: 600;
     color: #484848;
 }
-.range-name h3{
-   text-transform: none;
+
+.range-name h3 {
+    text-transform: none;
 }
-#range .item .content{
+
+#range .item .content {
     padding: 15px 0;
 }
-#range .item .content .cont-name{
+
+#range .item .content .cont-name {
     border-bottom: 1px solid #eee;
     margin-bottom: 10px;
 }
-#range .item .content ul{
+
+#range .item .content ul {
     text-align: left;
     list-style: none;
 }
-#range .item .content ul li{
+
+#range .item .content ul li {
     margin-bottom: 5px;
+    word-break: break-word;
 }
 
 .rg-img img {
     width: 70%;
     height: 100%;
 }
+
 .rg-img {
     height: 225px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
-.range-btn button{
-    padding: 10px 15px;
+.range-btn{
+    display: flex;
+}
+.range-btn .rg_btn_con{
     margin: 15px auto;
+    display: flex;
+}
+.range-btn button {
+    padding: 10px 15px;
     display: block;
     border: none;
     background: #eaaf2f;
     text-transform: uppercase;
     color: white;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin: 0 5px;
 }
-.range-btn button:hover{
+.range-btn button.up.disable{
+    transition: 0.5s;
+    display: none;
+}
+.range-btn button.up.active{
+    display: block;
+    transition: 0.5s;
+}
+
+.range-btn button.rg-bt::before{
+    content: 'больше';
+    font-size: x-large;
+    margin-right: 5px;
+}
+.range-btn button.rg-bt.active::before{
+    content: 'скрыть';
+}
+
+.range-btn button:hover {
     /* box-shadow: 0 0 10px #aeaeae; */
     background: #f9ba34;
 }
 
-#range .item:hover:before {
-    content: '+';
+#range .item::before {
+    content: url('/img/range/enlarge.png');
     position: absolute;
     background: #eaaf2fe0;
     top: 0;
@@ -84,20 +122,30 @@
     text-shadow: 5px 5px 0px #545454;
     transition: 1s;
     border: 4px solid #ffffff;
+    border-left: 0;
+    border-right: 0;
     z-index: 1;
+    width: 0;
+}
+
+#range .item:hover:before {
+    width: 100%;
 }
 
 #range .item:hover {
     box-shadow: 5px 5px 10px #a2a0a0;
 }
-#range .item img{
+
+#range .item img {
     transition: 1s
 }
-#range .item:hover img{
-   transform: scale(1.1)
+
+#range .item:hover img {
+    transform: scale(1.1)
 }
 
 /* PupUP */
+
 .pupup {
     position: fixed;
     top: 0;
@@ -107,11 +155,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
     z-index: -1;
     opacity: 0;
 }
-.pupup .pupup_baground{
+
+.pupup .pupup_baground {
     background: #484848d5;
     width: 100%;
     height: 100%;
@@ -120,42 +168,54 @@
     left: 0;
     right: 0;
     bottom: 0;
+    cursor: pointer;
+    transition: 0.5s;
 }
-.pupup.active{
+.pupup .pupup_baground:hover{
+    background: #282828d5;
+   
+}
+.pupup.active {
     z-index: 1000;
     opacity: 1;
 }
-.pupup .card{
+
+.pupup .card {
     background: white;
     padding-top: 15px;
     max-width: 50%;
     box-shadow: 0px 0px 55px 0px #00000047;
     border-radius: 5px;
 }
-.pupup .card .content{
+
+.pupup .card .content {
     padding: 15px;
 }
-.pupup .card .cont-name{
+
+.pupup .card .cont-name {
     border-bottom: 1px solid lightgray;
     padding-bottom: 5px;
     display: flex;
     align-items: center;
 }
-.pupup .card .cont-name h3{
+
+.pupup .card .cont-name h3 {
     font-weight: 600;
     margin: 0;
 }
-.pupup .card .pupup-close{
+
+.pupup .card .pupup-close {
     margin-left: auto;
     border: none;
     background: transparent;
     transition: 0.5s;
     cursor: pointer;
-    
 }
-.pupup .card .pupup-close:hover{
-    transform: scale(1.1) rotate(360deg);
+
+.pupup .card .pupup-close:hover {
+    transform: scale(1.2) rotate(90deg);
 }
+
 .pupup .card p {
     padding: 5px 0;
     margin-bottom: 15px;
@@ -164,24 +224,29 @@
     font-size: small;
     border-bottom: 1px solid lightgray;
 }
-.pupup .card ul li{
+
+.pupup .card ul li {
     margin: 5px 0;
     font-size: small;
 }
-.pupup .card ul{
+
+.pupup .card ul {
     /* margin-left: 15px; */
     list-style: none;
 }
-.pupup .card ul li::before{
+
+.pupup .card ul li::before {
     content: "-";
     font-weight: 700;
     margin-right: 5px;
     font-size: x-small;
 }
-.pupup .card ul li span{
+
+.pupup .card ul li span {
     font-weight: 500;
     margin-right: 5px;
 }
+
 .pup-feedback {
     padding: 15px;
     background: #eee;
@@ -190,7 +255,8 @@
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
-.pup-feedback form input[type="text"]{
+
+.pup-feedback form input[type="text"] {
     width: 100%;
     padding: 10px 5px;
     margin-bottom: 10px;
@@ -199,7 +265,7 @@
     border-bottom: 1px solid #c7c7c7;
 }
 
-.pup-feedback form input[type="button"]{
+.pup-feedback form input[type="button"] {
     margin: 10px auto;
     padding: 10px 15px;
     text-transform: uppercase;
@@ -210,17 +276,34 @@
     transition: 0.2s;
     cursor: pointer;
 }
-.pup-feedback form input[type="button"]:hover{
+
+.pup-feedback form input[type="button"]:hover {
     box-shadow: 5px 5px 15px #9b9b9b85;
 }
 
-.pupup .card .card-img{
+.pupup .card .card-img {
     height: 100%;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.pupup .card .card-img img{
+
+.pupup .card .card-img img {
     width: 75%;
+}
+
+.range_dop_medium,.range_dop_max {
+    overflow: hidden;
+    height: 0;
+    transition: 1s;
+}
+.range_dop_medium.active,.range_dop_max.active{
+    height: auto;
+}
+
+@media(max-width:1200px){
+    #range .item .content ul li{
+        font-size: small;
+    }
 }

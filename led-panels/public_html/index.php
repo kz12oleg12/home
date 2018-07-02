@@ -31,6 +31,7 @@
 	<script src="/js/resize.js"></script>
 	<script src="/modules/owlcarousel/owl.carousel.min.js"></script>
 	<script src="/js/index.js"></script>
+	<script src="/js/jquery.waypoints.min.js"></script>
 
 
 
@@ -50,6 +51,9 @@
 	<?php require_once("blocks/services.php"); ?>
 	<?php require_once("blocks/prich.php"); ?>
 	<?php require_once("blocks/range.php"); ?>
+	<?php require_once("blocks/work.php"); ?>
+	<?php require_once("blocks/portfolio.php"); ?>
+	<?php require_once("blocks/partners.php"); ?>
 	<!-- FEEDBACK -->
 	<?php require_once("feedback/feedback.php"); ?>
 	<!-- FOOTER -->

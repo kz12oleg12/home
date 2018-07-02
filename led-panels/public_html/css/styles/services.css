@@ -3,14 +3,19 @@
     color: #484848;
 }
 #services .item{
-    box-shadow: 5px 5px 10px #cacaca;
+    box-shadow: 5px 5px 10px #e4e4e4;
     padding: 15px;
-    background: white
+    background: white;
+    transition: 0.5s;
 }
-#services img {
+#services:hover .item{
+    box-shadow: 5px 5px 15px #c4c4c4;
+}
+#services .ser_img img {
     width: 60%;
     padding: 15px;
     float: right;
+    transform: translateX(300vw)
 }
 
 #services .s-name h2{
@@ -18,9 +23,7 @@
     padding: 15px 0;
     font-weight: 600;
 }
-#services .content{
 
-}
 #services .content ul{
     list-style: none;
 }

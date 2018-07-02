@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="/css/styles/home.css">
 
 <section id="home">
-    <div class="owl-carousel owl-theme">
+    <div class="owl-carousel home-sl owl-theme">
         <div class="item">
             <!-- <img src="/img/home.jpg" alt="" width="100%"> -->
             <div class="hd-itm">
@@ -43,7 +43,7 @@
 </script>
 
 <script>
-    $('.owl-carousel').owlCarousel({
+   $('.owl-carousel.home-sl').owlCarousel({
         loop: true,
         margin: 0,
         nav: false,

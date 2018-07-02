@@ -48,7 +48,9 @@
                 </div>
             </div>
             <div class="col">
-                <img src="/img/advantegs.png" alt="">
+                <div class="ser_img">
+                    <img src="/img/advantegs.png" alt="">
+                </div>
             </div>
         </div>
     </div>

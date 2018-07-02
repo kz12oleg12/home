@@ -3,6 +3,10 @@
     background: #eee;
 }
 
+
+#about .name.active{
+    transform: translateY(0px);
+}
 #about .name h2 {
     margin-top: 15px;
     font-size: x-large;

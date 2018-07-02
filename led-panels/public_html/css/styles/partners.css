@@ -1,0 +1,21 @@
+#partners{
+    background: #eee;
+}
+
+#partners img{
+    width: 100%;
+}
+
+#partners .item{
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+#partners .partners-name h2 {
+    font-size: xx-large;
+    font-weight: 600;
+    color: #484848;
+}
+#partners .partners-name h3 {
+    text-transform: none;
+}

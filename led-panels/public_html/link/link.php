@@ -1,13 +1,13 @@
 <style>
     #link{
         padding: 15px;
-        background: white;
+        background: rgb(0, 0, 0);
     }
 
     .footer-name h2 {
         text-align: center;
         text-transform: uppercase;
-        color: black;
+        color: rgb(255, 255, 255);
         font-size: 14px;
 
     }
@@ -19,12 +19,12 @@
     }
 
     #link-astanait a {
-        color: black;
+        color: rgb(255, 255, 255);
         font-weight: 900;
     }
 
     #link-astanait a:hover {
-        color: dodgerblue;
+        color: #eaaf2f;
     }
 </style>
 
