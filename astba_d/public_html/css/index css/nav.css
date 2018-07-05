@@ -1,0 +1,191 @@
+nav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    background: white;
+    /* background: transparent url('/img/nav.png') no-repeat center top; */
+    /* background-size: cover; */
+}
+
+.navbar .navbar-list.md {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.navbar .navbar-list.md li {
+    font-size: 0.74em;
+    padding: 25px 0;
+    margin: auto 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.navbar .navbar-list.md li a {
+    border-bottom: 2px solid transparent;
+    transition: ease, 0.5s;
+    padding: 15px 0;
+    padding-bottom: 15px;
+    color: #082247;
+}
+
+.navbar .navbar-list.md li a:hover {
+    border-bottom: 1.5px solid red;
+    color: red;
+}
+
+.navbar .navbar-list.md .nav-btn {
+    background: transparent url('/img/nav-btn.png') no-repeat center top;
+    background-size: cover;
+    background-size: cover;
+    width: 156px;
+    height: 100%;
+    text-align: center;
+}
+
+.navbar .navbar-list.md a li.nav-btn i {
+    font-size: 1.3em;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 148, 148, 0.364);
+    transition: ease, 0.5s;
+    padding: 2px 8px 2px 8px;
+    color: white;
+}
+
+.navbar .navbar-list.md a li.nav-btn:hover i {
+    border: 1px solid white;
+}
+
+/* .navbar .navbar-list.md li.nav-btn a {
+font-size: 16px;
+} */
+
+.navbar .navbar-list.md li.nav-btn {
+    padding: 0;
+    padding-top: 10px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* .next-sl{
+    cursor: pointer;
+} */
+
+.jolk {
+    position: fixed;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #082247;
+    z-index: -1;
+    transition: 1s;
+}
+
+.jolk.active {
+    z-index: 9;
+    opacity: 0.8;
+}
+
+.navbar .navbar-list.md {
+    display: block;
+    justify-content: center;
+    list-style: none;
+    position: fixed;
+    top: 0;
+    background: white;
+    width: 300px;
+    bottom: 0;
+    height: 100%;
+    right: 0;
+    transform: translateX(100vw);
+    transition: all, 1s;
+    transition-duration: 1.2s;
+    box-shadow: 0 0 10px #0003;
+}
+
+.navbar .navbar-list.md.active {
+    transform: translateX(0vw);
+}
+
+.navbar .navbar-list.md li a {
+    border-bottom: 2px solid transparent;
+    transition: ease, 0.5s;
+    padding: 5px 15px;
+    padding-bottom: 15px;
+    color: #082247;
+}
+
+.nav-close {
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.nav-close i {
+    margin: 0 5px;
+}
+
+.navbar .navbar-list.md li a:hover {
+    border-bottom: 1.5px solid transparent;
+}
+
+/* .navbar .navbar-list.md li:active {
+        background: red;
+        color: white;
+        
+    } */
+
+.navbar .navbar-list.md li:active a {
+    color: red;
+}
+
+.navbar .navbar-list.md li {
+    border-bottom: 1px solid lightgray;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+    padding: 15px 0;
+}
+
+.navbar .navbar-list.md li::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 100%;
+    opacity: 0.1;
+    width: 0px;
+    height: 0px;
+    margin: auto;
+    background: rgb(255, 0, 0);
+}
+
+.navbar .navbar-list.md li:active::before {
+    background: rgb(0, 0, 0);
+    width: 500px;
+    height: 500px;
+    opacity: 0;
+    transition: ease-in, 1s;
+    transition-duration: 0.5s;
+}
+
+.navbar .navbar-list.md li a i {
+    color: red;
+    margin: 0 5px;
+}
+
+@media (max-width:576px) {
+    .navbar .navbar-list.md {
+        width: 100%;
+        left: 0;
+    }
+}

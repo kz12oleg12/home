@@ -83,3 +83,8 @@ section.bl{
 section.pd{
     padding: 5%;
 }
+@media(max-width:576px){
+    section.pd{
+        padding: 0;
+    }
+}

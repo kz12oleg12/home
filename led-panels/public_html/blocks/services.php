@@ -4,7 +4,7 @@
     <div class="s-line"></div>
     <div class="container">
         <div class="row align-items-center">
-            <div class="col">
+            <div class="col-12 col-md">
                 <div class="item">
                     <div class="s-name">
                         <h2>
@@ -47,7 +47,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col d-none d-md-block">
                 <div class="ser_img">
                     <img src="/img/advantegs.png" alt="">
                 </div>

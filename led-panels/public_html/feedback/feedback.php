@@ -3,14 +3,14 @@
 <section id="feedback">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-lg-6 order-12 order-lg-1">
+            <div class="col-12 col-md-6 col-lg">
                 <div class="fed_bl1">
                     <div class="fed-name">
                         <h2>Оставь заявку прямо сейчас</h2>
                     </div>
                 </div>
             </div>
-            <div class="col order-1 order-lg-12">
+            <div class="col-12 col-md-6 col-lg">
                 <div class="fed_bl2">
                     <div class="fed-card">
                         <form action="">

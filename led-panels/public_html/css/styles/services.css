@@ -44,3 +44,15 @@
     top: 10%;
     height: 80%;
 }
+
+@media(max-width:992px){
+    #services .ser_img img{
+        width: 85%;
+    }
+    #services .content ul li span{
+        font-size: small;
+    }
+    #services .s-name h2{
+        font-size: large;
+    }    
+}

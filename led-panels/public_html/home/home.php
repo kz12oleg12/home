@@ -6,13 +6,25 @@
             <!-- <img src="/img/home.jpg" alt="" width="100%"> -->
             <div class="hd-itm">
                 <div class="container">
-                    <div class="hd-feedback">
-                        <h2>Консультация бесплатно</h2>
-                        <form action="">
-                            <input type="text" placeholder="Ваше имя">
-                            <input type="text" placeholder="Телефон">
-                            <input type="button" value="Отправить">
-                        </form>
+                    <div class="row justify-content-center">
+                        <div class="col-12">
+                            <div class="hd-feedback d-none d-md-block">
+                                <h2>Консультация бесплатно</h2>
+                                <form action="">
+                                    <input type="text" placeholder="Ваше имя">
+                                    <input type="text" placeholder="Телефон">
+                                    <input type="button" value="Отправить">
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-12 order-md-first">
+                            <div class="cont_md">
+                                <h2>Наши цены дешевле на 7-12%</h2>
+                                <h2>Собирается в Казахстане</h2>
+                                <div class="cont_md_lin"></div>
+                                <p>Изготовление и монтаж светодиондной продукции в РК и РФ</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -34,6 +46,16 @@
         </div>
     </div>
 </section>
+<div class="hd-feedback md d-md-none">
+    <h2>Консультация бесплатно
+        <i class="material-icons">arrow_drop_down</i>
+    </h2>
+    <form action="">
+        <input type="text" placeholder="Ваше имя">
+        <input type="text" placeholder="Телефон">
+        <input type="button" value="Отправить">
+    </form>
+</div>
 <script src="/js/resize.js"></script>
 
 <script type="text/javascript">
@@ -43,20 +65,10 @@
 </script>
 
 <script>
-   $('.owl-carousel.home-sl').owlCarousel({
+    $('.owl-carousel.home-sl').owlCarousel({
         loop: true,
         margin: 0,
         nav: false,
-        responsive: {
-            0: {
-                items: 1
-            },
-            600: {
-                items: 1
-            },
-            1000: {
-                items: 1
-            }
-        }
+        items: 1,
     })
 </script>

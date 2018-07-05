@@ -10,7 +10,9 @@
     padding: 15px;
     margin-bottom: 15px;
 }
-
+#partners .partners-name{
+    transform: translateX(-300vw);
+}
 #partners .partners-name h2 {
     font-size: xx-large;
     font-weight: 600;
@@ -18,4 +20,15 @@
 }
 #partners .partners-name h3 {
     text-transform: none;
+}
+@media(max-width:576px){
+    #partners .partners-name h2 {
+        font-size: large;
+    }
+}
+@media(max-width:576px){
+    #partners .partners-name h2 {
+        font-size: larger;
+        padding: 15px 0;
+    }
 }

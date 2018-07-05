@@ -37,6 +37,11 @@ $(document).ready(function () {
         jolk.removeClass('active');
         body.removeClass('stop');
     });
+
+    // HOME
+    $('.hd-feedback.md h2').click(function () {
+        $('.hd-feedback.md ').toggleClass('active');
+    });
     // ABOUT
 
     // ADVANTAGS
@@ -196,5 +201,26 @@ $(document).ready(function () {
     });
     // $('.owl-carousel.portfolio-sl .owl-nav').removeClass('disabled');
     // $('.owl-carousel.portfolio-sl .owl-dots').removeClass('disabled');
+
+
+    // PARTNERS
+    var waypoint = new Waypoint({
+        element: document.getElementById('partners'),
+        handler: function (direction) {
+            $('.partners-name').addClass('animated slideInLeft')
+        },
+        offset: '70%'
+    });
+
+
+    // FEEDBACK
+    var waypoint = new Waypoint({
+        element: document.getElementById('feedback'),
+        handler: function (direction) {
+            $('.fed-name').addClass('animated slideInLeft')
+        },
+        offset: '70%'
+    });
+
     // ---------------------------------------------
 });

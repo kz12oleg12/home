@@ -17,29 +17,46 @@
     text-transform: none;
 }
 
-#work .item{
+#work .item {
     margin-bottom: 15px;
     text-align: center;
     padding: 15px;
     text-align: center;
 }
-#work .wr-line{
+
+#work .wr-line {
     display: flex;
     align-items: center;
     height: 100%;
 }
-#work .wr-line .ln{
+
+#work .wr-line .ln {
     width: 20px;
     height: 1.5px;
     background: darkgray;
 }
-#work .item span{
+
+#work .item span {
     font-weight: 600;
     font-size: large;
     margin-right: 10px;
     color: #6c6c6c;
 }
-#work .item h3{
+
+#work .item h3 {
     font-size: larger;
     text-transform: none;
+}
+
+@media(max-width:576px) {
+    #work img {
+        width: 80%;
+    }
+    #work .item h3 {
+        font-size: small;
+        text-transform: none;
+    }
+    #work .item {
+        padding: 5px;
+    }
 }

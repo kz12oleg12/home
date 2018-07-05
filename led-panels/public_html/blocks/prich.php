@@ -8,10 +8,10 @@
         </div>
         <div class="item">
             <div class="row">
-                <div class="col">
-                    <img src="/img/prish.jpg" alt="" width="80%">
+                <div class="col-12 col-md">
+                    <img src="/img/prish.jpg" alt="">
                 </div>
-                <div class="col">
+                <div class="col-12 col-md">
                     <ul class="content">
                         <li>
                             <span>1</span>Гарантия на нашу продукцию 12 месяцев

@@ -9,7 +9,7 @@
         </div>
         <div class="row">
 
-            <div class="col-3">
+            <div class="col-12 col-md-4 col-lg-3">
                 <div class="item item-1">
                     <div class="rg-img">
                         <img src="/img/range/1.png" alt="" width="50%">
@@ -26,7 +26,7 @@
                 </div>
             </div>
 
-            <div class="col-3">
+            <div class="col-12 col-md-4 col-lg-3">
                 <div class="item item-1">
                     <div class="rg-img">
                         <img src="/img/range/2.png" alt="" width="50%">
@@ -43,7 +43,7 @@
                 </div>
             </div>
 
-            <div class="col-3">
+            <div class="col-12 col-md-4 col-lg-3">
                 <div class="item item-1">
                     <div class="rg-img">
                         <img src="/img/range/3.png" alt="" width="50%">
@@ -60,7 +60,7 @@
                 </div>
             </div>
 
-            <div class="col-3">
+            <div class="col-12 col-md-4 col-lg-3">
                 <div class="item item-1">
                     <div class="rg-img">
                         <img src="/img/range/4.png" alt="" width="50%">
@@ -82,7 +82,7 @@
 
 
 
-            <div class="col-3">
+            <div class="col-12 col-md-4 col-lg-3">
                 <div class="item item-1">
                     <div class="rg-img">
                         <img src="/img/range/1.png" alt="" width="50%">
@@ -99,7 +99,7 @@
             </div>
 
 
-            <div class="col-3">
+            <div class="col-12 col-md-4 col-lg-3">
                 <div class="item item-1">
                     <div class="rg-img">
                         <img src="/img/range/1.png" alt="" width="50%">
@@ -116,7 +116,7 @@
                 </div>
             </div>
 
-            <div class="col-3">
+            <div class="col-12 col-md-4 col-lg-3">
                 <div class="item item-1">
                     <div class="rg-img">
                         <img src="/img/range/1.png" alt="" width="50%">
@@ -132,7 +132,7 @@
                 </div>
             </div>
 
-            <div class="col-3">
+            <div class="col-12 col-md-4 col-lg-3">
                 <div class="item item-1">
                     <div class="rg-img">
                         <img src="/img/range/1.png" alt="" width="50%">
@@ -152,7 +152,7 @@
 
         <div class="range_dop_medium row">
 
-            <div class="col-3">
+            <div class="col-12 col-md-4 col-lg-3">
                 <div class="item item-1">
                     <div class="rg-img">
                         <img src="/img/range/1.png" alt="" width="50%">
@@ -169,7 +169,7 @@
                 </div>
             </div>
 
-            <div class="col-3">
+            <div class="col-12 col-md-4 col-lg-3">
                 <div class="item item-1">
                     <div class="rg-img">
                         <img src="/img/range/1.png" alt="" width="50%">
@@ -186,7 +186,7 @@
                 </div>
             </div>
 
-            <div class="col-3">
+            <div class="col-12 col-md-4 col-lg-3">
                 <div class="item item-1">
                     <div class="rg-img">
                         <img src="/img/range/1.png" alt="" width="50%">
@@ -202,7 +202,7 @@
                 </div>
             </div>
 
-            <div class="col-3">
+            <div class="col-12 col-md-4 col-lg-3">
                 <div class="item item-1">
                     <div class="rg-img">
                         <img src="/img/range/1.png" alt="" width="50%">
@@ -217,7 +217,7 @@
         </div>
 
         <div class="range_dop_max row">
-            <div class="col-3">
+            <div class="col-12 col-md-4 col-lg-3">
                 <div class="item item-1">
                     <div class="rg-img">
                         <img src="/img/range/1.png" alt="" width="50%">
@@ -230,7 +230,7 @@
                 </div>
             </div>
 
-            <div class="col-3">
+            <div class="col-12 col-md-4 col-lg-3">
                 <div class="item item-1">
                     <div class="rg-img">
                         <img src="/img/range/1.png" alt="" width="50%">
@@ -243,7 +243,7 @@
                 </div>
             </div>
 
-            <div class="col-3">
+            <div class="col-12 col-md-4 col-lg-3">
                 <div class="item item-1">
                     <div class="rg-img">
                         <img src="/img/range/1.png" alt="" width="50%">
@@ -256,7 +256,7 @@
                 </div>
             </div>
 
-            <div class="col-3">
+            <div class="col-12 col-md-4 col-lg-3">
                 <div class="item item-1">
                     <div class="rg-img">
                         <img src="/img/range/1.png" alt="" width="50%">
@@ -269,7 +269,7 @@
                 </div>
             </div>
 
-            <div class="col-3">
+            <div class="col-12 col-md-4 col-lg-3">
                 <div class="item item-1">
                     <div class="rg-img">
                         <img src="/img/range/1.png" alt="" width="50%">
@@ -282,7 +282,7 @@
                 </div>
             </div>
 
-            <div class="col-3">
+            <div class="col-12 col-md-4 col-lg-3">
                 <div class="item item-1">
                     <div class="rg-img">
                         <img src="/img/range/1.png" alt="" width="50%">
@@ -295,7 +295,7 @@
                 </div>
             </div>
 
-            <div class="col-3">
+            <div class="col-12 col-md-4 col-lg-3">
                 <div class="item item-1">
                     <div class="rg-img">
                         <img src="/img/range/2.png" alt="" width="50%">

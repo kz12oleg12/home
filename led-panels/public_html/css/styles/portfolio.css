@@ -95,7 +95,6 @@
 #portfolio .content .card ul li i.material-icons {
     font-size: 50px;
     margin-right: 15px;
-    
 }
 
 #portfolio .content .card ul li span {
@@ -110,3 +109,32 @@
     margin-top: 10px;
 }
 
+@media(max-width:576px) {
+    #portfolio .content .card ul li {
+        display: block;
+        margin: 0;
+        padding: 5px 10px;
+    }
+    #portfolio .content .card ul {
+        padding: 0px;
+    }
+    #portfolio .content .card ul li p {
+        margin-top: 5px;
+        font-size: smaller;
+    }
+    #portfolio .content {
+        padding: 0;
+    }
+    #portfolio .content .card ul li i.material-icons {
+        font-size: 30px;
+        margin-right: 0;
+        text-align: right;
+        width: 100%;
+    }
+    #portfolio {
+        padding: 0%;
+    }
+    #portfolio .sb-line .s-line {
+        height: 60%;
+    }
+}

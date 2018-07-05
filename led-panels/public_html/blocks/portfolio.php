@@ -20,8 +20,8 @@
         </div>
         <div class="owl-carousel portfolio-sl owl-theme">
             <div class="item">
-                <div class="row">
-                    <div class="col-6">
+                <div class="row no-gutters">
+                    <div class="col-12 col-lg-6">
                         <img src="/img/im/2.jpg" alt="">
                     </div>
                     <div class="col">
@@ -75,8 +75,8 @@
                 </div>
             </div>
             <div class="item">
-                <div class="row">
-                    <div class="col-6">
+                <div class="row no-gutters">
+                    <div class="col-12 col-lg-6">
                         <img src="/img/im/3.jpg" alt="">
                     </div>
                     <div class="col">
@@ -130,8 +130,8 @@
                 </div>
             </div>
             <div class="item">
-                <div class="row">
-                    <div class="col-6">
+                <div class="row no-gutters">
+                    <div class="col-12 col-lg-6">
                         <img src="/img/im/4.jpg" alt="">
                     </div>
                     <div class="col">
