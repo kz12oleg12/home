@@ -5,7 +5,7 @@ window.onresize = resize;
 function resize() {
     var height = document.documentElement.clientHeight - 0;
     var width = document.documentElement.clientWidth;
-    // var home = $('#home');
+    var home = $('#home');
     // var main = $(".main");
 
     if(width > 992){

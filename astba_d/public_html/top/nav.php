@@ -1,5 +1,4 @@
-<style>
-</style>
+<link rel="stylesheet" href="/css/style/nav.css">
 
 <nav>
     <div class="container">
