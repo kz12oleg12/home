@@ -1,0 +1,163 @@
+.home_ld {
+    height: 650px;
+    background: transparent url('/img/home.jpg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+
+.home_ld .hm_content.container {
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.test {
+    width: 150px;
+    height: 150px;
+    background: red;
+}
+
+.hm_cn {
+    color: white;
+    width: 60%;
+}
+
+.hm_cn .name h2 {
+    font-size: xx-large;
+}
+
+.hm_cn .hm_line {
+    background: red;
+    width: 15%;
+    height: 1px;
+    margin: 15px 0;
+}
+
+.hm_cn p {
+    line-height: 1.5;
+}
+
+.home_sl {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -10%;
+}
+
+.home_sl .item {
+    display: flex;
+    align-items: center;
+    background: white;
+    height: 200px;
+    border-right: 1px solid #e4e4e4;
+    padding: 15px;
+}
+
+.home_sl .item img {
+    width: 80px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.home_sl .item span {
+    text-align: center;
+}
+
+#home {
+    position: relative;
+}
+
+.owl-theme .owl-nav {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    left: 0;
+    right: 0;
+}
+
+.owl-theme .owl-nav [class*=owl-] {
+    color: #FFF;
+    font-size: 14px;
+    margin: 0px;
+    padding: 4px 7px;
+    background: red;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 0px;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: rgb(220, 6, 6);
+    color: #FFF;
+    text-decoration: none;
+}
+
+.owl-theme .owl-nav [class*=owl-next] {
+    float: right;
+    margin-left: auto;
+}
+
+.hm-feed {
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.hm-feed .name {
+    text-align: center;
+}
+
+.hm-feed form {
+    display: flex;
+    justify-content: center;
+}
+
+.hm-feed form input {
+    padding: 10px;
+    border: none;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background: #dce3ed;
+}
+
+.hm-feed form input[type="button"] {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    font-size: 1em;
+    background: #ee1a30;
+    color: white;
+    cursor: pointer;
+    transition: ease, 0.5s;
+}
+
+.inp {
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+form input[type="button"]:hover {
+    background: #c21728;
+}
+
+form .inp {
+    display: flex;
+    padding: 15px;
+}
+
+form .inp .inp-icon {
+    padding: 10px;
+    background: #dce3ed;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    color: #ee1a30;
+}
+
