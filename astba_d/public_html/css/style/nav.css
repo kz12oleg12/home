@@ -31,19 +31,16 @@ nav {
     color: #082247;
 }
 
-.navbar .navbar-list.md li a:hover {
-    border-bottom: 1.5px solid red;
-    color: red;
-}
 
-.navbar .navbar-list.md .nav-btn {
+
+/* .navbar .navbar-list.md .nav-btn {
     background: transparent url('/img/nav-btn.png') no-repeat center top;
     background-size: cover;
     background-size: cover;
     width: 156px;
     height: 100%;
     text-align: center;
-}
+} */
 
 .navbar .navbar-list.md a li.nav-btn i {
     font-size: 1.3em;
@@ -126,6 +123,7 @@ font-size: 16px;
     display: flex;
     align-items: center;
     padding: 0 15px;
+    cursor: pointer;
 }
 
 .nav-close i {
@@ -136,11 +134,19 @@ font-size: 16px;
     border-bottom: 1.5px solid transparent;
 }
 
-
 .navbar .navbar-list.md li a i {
     color: red;
     margin: 0 5px;
+    /* background: #eee; */
+}
+
+.navbar .navbar-list.md li:hover {
     background: #eee;
+}
+
+.navbar .navbar-list.md li:hover a {
+    border-bottom: 1.5px solid red;
+    color: red;
 }
 
 @media (max-width:576px) {
