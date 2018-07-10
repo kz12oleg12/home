@@ -98,9 +98,14 @@
                     </div>
                 </div>
             </div>
-            <div class="col-auto">
+            <div class="col-1">
                 <div class="nav-menu">
-                    <i class="icon ion-ios-menu fa-3x"></i>
+                    <div class="top__menu">
+                        <div class="line">
+                            <span class="min"></span>
+                            <span class="max"></span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

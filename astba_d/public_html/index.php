@@ -11,7 +11,7 @@
 	<title>Hello Default</title>
 
 	<!-- STYLE -->
-	<link href="/css/asti.css" rel="stylesheet">
+	<!-- <link href="/css/asti.css" rel="stylesheet"> -->
 	<link href="/css/dropdown.css" rel="stylesheet">
 	<link href="/css/mobile.css" rel="stylesheet">
 	<link rel="stylesheet" href="/css/bootstrap-grid.min.css">
@@ -45,7 +45,7 @@
 	<style>
 		body {
 			font-family: 'Open Sans', sans-serif;
-			/* overflow: hidden; */
+			margin: 0;
 			background: #f3f3f3;
 		}
 
