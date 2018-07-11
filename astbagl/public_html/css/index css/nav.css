@@ -5,25 +5,25 @@ nav {
     bottom: 0;
     z-index: 10;
     background: white;
-    /* background: transparent url('/img/nav.png') no-repeat center top; */
-    /* background-size: cover; */
+    box-shadow: 0 0 10px #00000059;
+    height: 65px;
 }
 
-.navbar .navbar-list {
+nav .navbar-list {
     display: flex;
     justify-content: center;
     list-style: none;
 }
 
-.navbar .navbar-list li {
+nav .navbar-list li {
     font-size: 0.74em;
-    padding: 25px 0;
+    padding: 20px 0;
     margin: auto 5px;
     text-transform: uppercase;
     font-weight: 600;
 }
 
-.navbar .navbar-list li a {
+nav .navbar-list li a {
     border-bottom: 2px solid transparent;
     transition: ease, 0.5s;
     padding: 15px 0;
@@ -31,13 +31,7 @@ nav {
     color: #082247;
 }
 
-.navbar .navbar-list li a:hover {
-    border-bottom: 1.5px solid red;
-    color: red;
-}
-
-
-.navbar .navbar-list .nav-btn {
+nav .navbar-list .nav-btn {
     background: transparent url('/img/nav-btn.png') no-repeat center top;
     background-size: cover;
     background-size: cover;
@@ -46,7 +40,7 @@ nav {
     text-align: center;
 }
 
-.navbar .navbar-list a li.nav-btn i {
+nav .navbar-list .nav-btn i {
     font-size: 1.3em;
     border-radius: 50%;
     border: 1px solid rgba(255, 148, 148, 0.364);
@@ -55,15 +49,11 @@ nav {
     color: white;
 }
 
-.navbar .navbar-list a li.nav-btn:hover i {
+nav .navbar-list a li.nav-btn:hover i {
     border: 1px solid white;
 }
 
-/* .navbar .navbar-list li.nav-btn a {
-font-size: 16px;
-} */
-
-.navbar .navbar-list li.nav-btn {
+nav .navbar-list li.nav-btn {
     padding: 0;
     padding-top: 10px;
     margin: auto;
@@ -72,10 +62,157 @@ font-size: 16px;
     align-items: flex-start;
 }
 
-/* .next-sl{
+.ion-ios-remove, .navbar-list li.nv-cl {
+    display: none;
+}
+
+nav .navbar .navbar-list li .nav_line {
+    width: 0;
+    height: 2px;
+    background: red;
+    margin-top: 5px;
+    transition: ease, 0.5s;
+}
+
+nav .navbar .navbar-list li:hover .nav_line {
+    width: 100%;
+}
+
+/* NAV_MD */
+
+nav.md {
+    position: fixed;
+    top: 0;
+    left: auto;
+    right: 0;
+    bottom: auto;
+    z-index: 10;
+    width: 300px;
+    height: 100%;
+    transform: translateX(100vw);
+    transition: all, 1s;
+    transition-duration: 1.2s;
+    box-shadow: 0 0 10px #000000;
+}
+
+nav.md.active {
+    transform: translateX(0vw);
+}
+
+nav.md .navbar.container {
+    margin: 0;
+    padding: 0;
+}
+
+nav.md .navbar-list li {
+    font-size: 0.74em;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-top: 1px solid #ded9d9;
+    margin: 0;
+    padding: 0;
+}
+
+nav.md .navbar-list li a {
+    border-bottom: 2px solid transparent;
+    transition: ease, 0.5s;
+    padding: 15px;
+    padding-bottom: 15px;
+    color: #082247;
+}
+
+nav.md .navbar-list li.nav-btn {
+    display: none;
+}
+
+nav.md .navbar-list {
+    display: block;
+    list-style: none;
+}
+
+.navbar .navbar-list.md.active {
+    transform: translateX(0vw);
+}
+
+nav.md .navbar-list li a {
+    border-bottom: 2px solid transparent;
+    transition: ease, 0.5s;
+    padding: 25px;
+    color: #082247;
+    display: block;
+    width: 100%;
+}
+
+nav.md .nav-close {
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
     cursor: pointer;
-} */
-.jolk{
+    position: relative;
+    height: 67px;
+    color: white;
+    z-index: 1;
+}
+
+nav.md .nav-close::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #ff2c2c;
+    z-index: -1;
+    width: 0;
+    transition: easy, 0.5s;
+}
+
+nav.md .nav-close::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #f70101;
+    z-index: -2;
+    transition: easy, 0.5s;
+}
+
+nav.md .nav-close:hover:after {
+    width: 100%;
+}
+
+nav.md .navbar-list li.nv-cl {
+    border: none;
+    display: block;
+}
+
+nav.md .navbar-list li.nv-cl:hover {
+    background: transparent;
+}
+
+nav.md .nav-close i {
+    margin: 0 5px;
+}
+
+nav.md .navbar-list li a:hover {
+    border-bottom: 1.5px solid transparent;
+}
+
+nav.md .navbar .navbar-list li a i {
+    color: red;
+    margin: 0 5px;
+}
+
+nav.md .navbar-list li:hover {
+    background: #eee;
+}
+
+/* JOIK */
+
+.jolk {
     position: fixed;
     opacity: 0;
     top: 0;
@@ -84,101 +221,27 @@ font-size: 16px;
     bottom: 0;
     background: #082247;
     z-index: -1;
-    transition: 1s;
+    transition: 0.5s;
+    cursor: pointer;
 }
-.jolk.active{
+
+.jolk.active {
     z-index: 9;
+    opacity: 0.6;
+}
+
+.jolk:hover {
     opacity: 0.8;
 }
 
-@media (max-width:992px) {
-    .navbar .navbar-list {
-        display: block;
-        justify-content: center;
-        list-style: none;
-        position: fixed;
-        top: 0;
-        background: white;
-        width: 300px;
-        bottom: 0;
-        height: 100%;
-        right: 0;
-        transform: translateX(100vw);
-        transition: all, 1s;
-        transition-duration: 1.2s;
-        box-shadow: 0 0 10px #0003;
+@media (max-width:1200px) and (min-width:992px) {
+    nav .navbar-list li a {
+        font-size: x-small;
     }
-    .navbar .navbar-list.active{
-        transform: translateX(0vw);
-    }
-    .navbar .navbar-list li a{
-        border-bottom: 2px solid transparent;
-        transition: ease, 0.5s;
-        padding: 5px 15px;
-        padding-bottom: 15px;
-        color: #082247;
-
-    }
-    .nav-close {
-        font-size: 2em;
-        display: flex;
-        align-items: center;
-        padding: 0 15px;
-    }
-    .nav-close i{
-        margin: 0 5px;
-    }
-    .navbar .navbar-list li a:hover {
-        border-bottom: 1.5px solid transparent;
-    }
-    /* .navbar .navbar-list li:active {
-        background: red;
-        color: white;
-        
-    } */
-    .navbar .navbar-list li:active a {
-        color: red;
-    }
-    .navbar .navbar-list li {
-        border-bottom: 1px solid lightgray;
-        margin: 0;  
-        position: relative;
-        overflow: hidden;
-        padding: 15px 0;
-    }
-    .navbar .navbar-list li::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        border-radius: 100%;
-        opacity: 0.1;
-        width: 0px;
-        height: 0px;
-        margin: auto;
-        background:rgb(255, 0, 0);
-    }
-    .navbar .navbar-list li:active::before{
-        background: rgb(0, 0, 0);
-        width: 500px;
-        height: 500px;
-        opacity: 0;
-        transition:ease-in, 1s;
-        transition-duration: 0.5s;
-
-    }
-    .navbar .navbar-list li a i {
-        color: red;
-        margin: 0 5px;
-
-    }
-    
 }
 
-@media (max-width:576px){
-    .navbar .navbar-list {
+@media (max-width:576px) {
+    nav.md {
         width: 100%;
         left: 0;
     }

@@ -11,11 +11,8 @@
 	<title>Hello Default</title>
 
 	<!-- STYLE -->
-	<!-- <link href="/css/asti.css" rel="stylesheet"> -->
-	<link href="/css/dropdown.css" rel="stylesheet">
-	<link href="/css/mobile.css" rel="stylesheet">
+	<link rel="stylesheet" href="/css/main.css">
 	<link rel="stylesheet" href="/css/bootstrap-grid.min.css">
-	<link rel="stylesheet" href="/css/style.css">
 	<link rel="stylesheet" href="/modules/owlcarousel/assets/owl.carousel.min.css">
 	<link rel="stylesheet" href="/modules/owlcarousel/assets/owl.theme.default.min.css">
 	<link rel="stylesheet" href="/css/animate.css">
@@ -66,6 +63,7 @@
 	<!-- TOP -->
 	<?php require_once("top/header.php"); ?>
 	<?php require_once("top/nav.php"); ?>
+	<?php require_once("top/navgl.php"); ?>
 
 	<!-- HOME -->
 	<?php require_once("home/home.php"); ?>

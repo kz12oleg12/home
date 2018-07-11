@@ -5,41 +5,43 @@ nav {
     bottom: 0;
     z-index: 10;
     background: white;
-    /* background: transparent url('/img/nav.png') no-repeat center top; */
-    /* background-size: cover; */
+    box-shadow: 0 0 10px #00000059;
 }
 
-.navbar .navbar-list.md {
+nav .navbar-list {
     display: flex;
     justify-content: center;
     list-style: none;
 }
 
-.navbar .navbar-list.md li {
+nav .navbar-list li {
     font-size: 0.74em;
+    padding: 20px 0;
+    margin: auto 5px;
     text-transform: uppercase;
     font-weight: 600;
-    border-top: 1px solid #ded9d9;
 }
 
-.navbar .navbar-list.md li a {
+nav .navbar-list li a {
     border-bottom: 2px solid transparent;
     transition: ease, 0.5s;
-    padding: 15px;
+    padding: 15px 0;
     padding-bottom: 15px;
     color: #082247;
 }
 
-/* .navbar .navbar-list.md .nav-btn {
+
+
+nav .navbar-list .nav-btn {
     background: transparent url('/img/nav-btn.png') no-repeat center top;
     background-size: cover;
     background-size: cover;
     width: 156px;
     height: 100%;
     text-align: center;
-} */
+}
 
-.navbar .navbar-list.md a li.nav-btn i {
+nav .navbar-list .nav-btn i {
     font-size: 1.3em;
     border-radius: 50%;
     border: 1px solid rgba(255, 148, 148, 0.364);
@@ -48,15 +50,11 @@ nav {
     color: white;
 }
 
-.navbar .navbar-list.md a li.nav-btn:hover i {
+nav .navbar-list a li.nav-btn:hover i {
     border: 1px solid white;
 }
 
-/* .navbar .navbar-list.md li.nav-btn a {
-font-size: 16px;
-} */
-
-.navbar .navbar-list.md li.nav-btn {
+nav .navbar-list li.nav-btn {
     padding: 0;
     padding-top: 10px;
     margin: auto;
@@ -65,9 +63,155 @@ font-size: 16px;
     align-items: flex-start;
 }
 
-/* .next-sl{
+.ion-ios-remove, .navbar-list li.nv-cl {
+    display: none;
+}
+
+nav .navbar .navbar-list li .nav_line {
+    width: 0;
+    height: 2px;
+    background: red;
+    margin-top: 5px;
+    transition: ease, 0.5s;
+}
+
+nav .navbar .navbar-list li:hover .nav_line {
+    width: 100%;
+}
+
+/* NAV_MD */
+
+nav.md {
+    position: fixed;
+    top: 0;
+    left: auto;
+    right: 0;
+    bottom: auto;
+    z-index: 10;
+    width: 300px;
+    height: 100%;
+    transform: translateX(100vw);
+    transition: all, 1s;
+    transition-duration: 1.2s;
+    box-shadow: 0 0 10px #000000;
+}
+
+nav.md.active {
+    transform: translateX(0vw);
+}
+
+nav.md .navbar.container {
+    margin: 0;
+    padding: 0;
+}
+
+nav.md .navbar-list li {
+    font-size: 0.74em;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-top: 1px solid #ded9d9;
+    margin: 0;
+    padding: 0;
+}
+
+nav.md .navbar-list li a {
+    border-bottom: 2px solid transparent;
+    transition: ease, 0.5s;
+    padding: 15px;
+    padding-bottom: 15px;
+    color: #082247;
+}
+
+nav.md .navbar-list li.nav-btn {
+    display: none;
+}
+
+nav.md .navbar-list {
+    display: block;
+    list-style: none;
+}
+
+.navbar .navbar-list.md.active {
+    transform: translateX(0vw);
+}
+
+nav.md .navbar-list li a {
+    border-bottom: 2px solid transparent;
+    transition: ease, 0.5s;
+    padding: 25px;
+    color: #082247;
+    display: block;
+    width: 100%;
+}
+
+nav.md .nav-close {
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
     cursor: pointer;
-} */
+    position: relative;
+    height: 67px;
+    color: white;
+    z-index: 1;
+}
+
+nav.md .nav-close::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #ff2c2c;
+    z-index: -1;
+    width: 0;
+    transition: easy, 0.5s;
+}
+
+nav.md .nav-close::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #f70101;
+    z-index: -2;
+    transition: easy, 0.5s;
+}
+
+nav.md .nav-close:hover:after {
+    width: 100%;
+}
+
+nav.md .navbar-list li.nv-cl {
+    border: none;
+    display: block;
+}
+
+nav.md .navbar-list li.nv-cl:hover {
+    background: transparent;
+}
+
+nav.md .nav-close i {
+    margin: 0 5px;
+}
+
+nav.md .navbar-list li a:hover {
+    border-bottom: 1.5px solid transparent;
+}
+
+nav.md .navbar .navbar-list li a i {
+    color: red;
+    margin: 0 5px;
+}
+
+nav.md .navbar-list li:hover {
+    background: #eee;
+}
+
+/* JOIK */
 
 .jolk {
     position: fixed;
@@ -91,119 +235,8 @@ font-size: 16px;
     opacity: 0.8;
 }
 
-.navbar .navbar-list.md {
-    display: block;
-    justify-content: center;
-    list-style: none;
-    position: fixed;
-    top: 0;
-    background: white;
-    width: 300px;
-    bottom: 0;
-    height: 100%;
-    right: 0;
-    transform: translateX(100vw);
-    transition: all, 1s;
-    transition-duration: 1.2s;
-    box-shadow: 0 0 10px #0003;
-    margin: 0;
-    padding: 0;
-}
-
-.navbar .navbar-list.md.active {
-    transform: translateX(0vw);
-}
-
-.navbar .navbar-list.md li a {
-    border-bottom: 2px solid transparent;
-    transition: ease, 0.5s;
-    padding: 25px;
-    color: #082247;
-    display: block;
-    width: 100%;
-}
-
-.navbar .navbar-list.md li .nav_line {
-    width: 0;
-    height: 2px;
-    background: red;
-    transition: ease, 0.5s;
-}
-
-.navbar .navbar-list.md li:hover .nav_line {
-    width: 100%;
-}
-
-.nav-close {
-    font-size: 2em;
-    display: flex;
-    align-items: center;
-    padding: 0 15px;
-    cursor: pointer;
-    position: relative;
-    height: 67px;
-    color: white;
-}
-
-.nav-close::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background: #ff2c2c;
-    z-index: -1;
-    width: 0;
-    transition: easy, 0.5s;
-}
-
-.nav-close::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background: #f70101;
-    z-index: -2;
-    transition: easy, 0.5s;
-}
-
-.nav-close:hover:after {
-    width: 100%;
-}
-.navbar .navbar-list.md li.nv-cl{
-    border: none;
-}
-.navbar .navbar-list.md li.nv-cl:hover {
-    background: transparent;
-}
-
-.nav-close i {
-    margin: 0 5px;
-}
-
-.navbar .navbar-list.md li a:hover {
-    border-bottom: 1.5px solid transparent;
-}
-
-.navbar .navbar-list.md li a i {
-    color: red;
-    margin: 0 5px;
-    /* background: #eee; */
-}
-
-.navbar .navbar-list.md li:hover {
-    background: #eee;
-}
-
-/* .navbar .navbar-list.md li:hover a {
-    color: white;
-} */
-
 @media (max-width:576px) {
-    .navbar .navbar-list.md {
+    nav.md .navbar .navbar-list {
         width: 100%;
         left: 0;
     }

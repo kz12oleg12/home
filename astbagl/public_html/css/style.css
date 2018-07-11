@@ -1,3 +1,29 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body.stop {
+    overflow: hidden;
+}
+
+@media (max-width:992px) {
+    body {
+        overflow: inherit;
+    }
+}
+
 .bl {
     position: absolute;
     top: 0;
@@ -9,9 +35,11 @@
     align-items: center;
     justify-content: center;
 }
-.bl-it{
+
+.bl-it {
     position: relative;
 }
+
 .bl-cont {
     position: absolute;
     top: 0;
@@ -21,14 +49,17 @@
     width: 100%;
     height: 100%;
 }
-.h-max{
+
+.h-max {
     height: 100%;
     /* padding: 30px; */
 }
-.fl-h{
+
+.fl-h {
     display: flex;
     align-items: center;
 }
+
 .main {
     position: absolute;
     top: 0;
@@ -39,17 +70,19 @@
     align-items: center;
     justify-content: center;
 }
-.bl-name h2{
+
+.bl-name h2 {
     font-size: 2em;
     text-transform: uppercase;
     text-align: center;
     margin: 15px;
 }
-a{
+
+a {
     position: initial;
 }
 
-@media(max-width:992px){
+@media(max-width:992px) {
     .bl {
         overflow: auto;
         position: relative;
@@ -59,11 +92,10 @@ a{
         display: block;
         padding: 15px;
     }
-    .fl-h{
+    .fl-h {
         display: block;
     }
     .bl-cont {
         position: relative;
     }
 }
-

@@ -50,8 +50,7 @@ var waypoint = new Waypoint({
     element: document.getElementById('bl_2'),
     handler: function (direction) {
         $('header').toggleClass('active');
-        // alert('asdasd')
-    }, offset: '0'
+    }, offset: '20%'
 });
 
 // BL_6
@@ -64,6 +63,46 @@ $('.jolk').click(function () {
     $('#video').removeClass('active');
     $('.jolk').removeClass('active');
     $('body').removeClass('stop');
+});
+
+// HEADER
+resize();
+
+window.onresize = resize;
+
+function resize() {
+    var width = document.documentElement.clientWidth;
+    if (width < 992) {
+        // alert('123');
+        $('nav').addClass('md');
+    } else {
+        $('nav').removeClass('md');
+    }
+}
+
+$('.nav-menu').click(function () {
+    $('nav.md').addClass('active');
+    $('.jolk').addClass('active');
+    $('.navbar').removeClass('container');
+    $('body').addClass('stop');
+});
+$('.nv-cl').click(function () {
+    $('nav.md').removeClass('active');
+    $('.jolk').removeClass('active');
+    $('body').removeClass('stop');
+    $('.navbar').addClass('container');
+});
+$('.jolk').click(function () {
+    $('nav.md').removeClass('active');
+    $('.jolk').removeClass('active');
+    $('body').removeClass('stop');
+    $('.navbar').addClass('container');
+});
+$('nav.md li a').click(function () {
+    $('nav.md').removeClass('active');
+    $('.jolk').removeClass('active');
+    $('body').removeClass('stop');
+    $('.navbar').addClass('container');
 });
 
 

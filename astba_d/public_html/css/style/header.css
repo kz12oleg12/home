@@ -15,8 +15,8 @@ header {
     z-index: 5;
     padding: 5px 0;
     transition: 1s;
-    /* background: #041c40; */
     background-color: transparent;
+    height: 67px;
 }
 
 .brand {
@@ -55,7 +55,6 @@ header {
 
 .language ul li a {
     color: white;
-    /* padding: 3px 10px 9px 10px; */
     padding: 5px;
     border: 2px solid transparent;
     border-radius: 100%;
@@ -97,7 +96,8 @@ header {
 /* clock */
 
 .cl-city {
-    opacity: 0;
+    height: 0;
+    overflow: hidden;
     justify-content: center;
     text-align: center;
     width: 100px;
@@ -115,13 +115,19 @@ header {
     border-radius: 50px;
     margin-top: 9px;
     font-size: 0.8em;
-    /* margin-left: 15px;
-    margin-right: 15px; */
 }
 
 .cl-it {
     cursor: pointer;
     padding: 5px;
+}
+
+.cl-it:hover .cl-city {
+    overflow: inherit;
+}
+
+.cl-it:hover img:hover {
+    opacity: 1;
 }
 
 .cl-it.active img {
@@ -139,10 +145,6 @@ header {
 
 .cl-it.active img {
     transform: scale(1.2)
-}
-
-.cl-it:hover .cl-city, .cl-it:hover img {
-    opacity: 1;
 }
 
 .clock {
@@ -200,7 +202,6 @@ header.active .telephone img {
 
 header.active .cl-it {
     cursor: pointer;
-    /* padding: 0 5px; */
     text-align: center;
 }
 
@@ -237,10 +238,6 @@ header.active .telephone::before {
     content: url('/img/icon/phoneW.svg');
 }
 
-/* .cl-it::before{
-    content: url('/img/clock.png');
-} */
-
 .cl-it .disable {
     display: none;
 }
@@ -259,9 +256,10 @@ header.active .cl-it .active {
 
 /* TOP_MENU */
 
-.top__menu{
+.top__menu {
     width: 40px;
 }
+
 .top__menu .line {
     cursor: pointer;
     position: relative;
@@ -297,7 +295,7 @@ header.active .cl-it .active {
 
 .top__menu .line .max {
     width: 30px;
-    display:inline-block;
+    display: inline-block;
     height: 4px;
     background: #08254D;
 }

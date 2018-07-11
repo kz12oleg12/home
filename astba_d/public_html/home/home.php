@@ -104,4 +104,4 @@
     </div>
 </section>
 
-<script src="/js/resize.js"></script>
+<!-- <script src="/js/resize.js"></script> -->
